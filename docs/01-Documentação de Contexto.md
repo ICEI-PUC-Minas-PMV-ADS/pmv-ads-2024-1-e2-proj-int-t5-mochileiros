@@ -1,46 +1,35 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Planejar uma viagem pode ser emocionante, mas também pode ser desafiador gerenciar todos os detalhes, especialmente os gastos. Com a nossa aplicação de roteiro de viagens e gerenciamento de gastos, facilitamos para os usuários planejarem suas aventuras e acompanharem seus gastos em tempo real, permitindo que pessoas com diferentes necessidades, orçamentos e rendas possam viajar com tranquilidade. Vamos explorar como nossa aplicação promove uma experiência de viagem inclusiva e acessível, além de facilitar o planejamento para grupos e famílias, possibilitando a realização de sonhos de viagem.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo principal da nossa aplicação de roteiro de viagens e gerenciamento de gastos é facilitar e democratizar o acesso a viagens para pessoas de diferentes perfis financeiros, tornando o planejamento e a execução de viagens uma experiência acessível, inclusiva e emocionante. Buscamos fornecer ferramentas e recursos que permitam aos usuários controlarem seus gastos, planejarem itinerários personalizados e compartilharem experiências de viagem de forma colaborativa, garantindo que todos possam desfrutar de uma jornada memorável sem comprometer sua estabilidade financeira.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Dados recentes do setor de turismo indicam uma crescente demanda por soluções que facilitem o planejamento e o gerenciamento de viagens, especialmente considerando as diferentes necessidades financeiras dos viajantes. Segundo pesquisas da Organização Mundial do Turismo, o número de viagens internacionais continua a crescer anualmente, com uma ampla diversidade de perfis de viajantes, desde aqueles em busca de luxo até os que preferem opções mais econômicas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, estudos de mercado revelam que uma parcela significativa de viajantes enfrenta desafios ao lidar com os aspectos financeiros das viagens, muitas vezes excedendo seus orçamentos planejados e enfrentando dificuldades para controlar seus gastos durante a jornada.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Nesse contexto, nossa aplicação surge como uma solução inovadora e abrangente, oferecendo não apenas funcionalidades de planejamento de viagens personalizadas, mas também recursos de gerenciamento financeiro em tempo real, proporcionando uma experiência integrada e acessível para todos os tipos de viajantes. Ao oferecer uma abordagem inclusiva e colaborativa para o planejamento de viagens, visamos atender a essa demanda crescente e ajudar os viajantes a realizarem seus sonhos de viagem de forma consciente, econômica e satisfatória
+
+ • Inclusividade Financeira:Nossa aplicação oferece ferramentas e recursos para que pessoas com diferentes necessidades, orçamentos e rendas possam desfrutar de uma viagem tranquila e satisfatória, sem comprometer sua estabilidade financeira.
+
+ • Facilidade de Planejamento: Nossa aplicação simplifica o processo de planejamento de viagens, permitindo que os usuários organizem todas as informações importantes em um só lugar.
+  • Controle Financeiro: Ao acompanhar os gastos em tempo real, os usuários podem evitar surpresas desagradáveis e manter-se dentro do orçamento planejado para a viagem.
+  • Colaboração em Grupo: Com a capacidade de exportar e compartilhar roteiros e planilhas de gastos, os usuários podem colaborar facilmente com outros membros do grupo da viagem, garantindo que todos estejam na mesma página quanto aos planos e despesas.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Nossa aplicação é direcionada a uma ampla gama de viajantes, incluindo:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+- Viajantes Individuais: Profissionais que viajam a trabalho, viajantes solo em busca de aventuras pessoais e exploradores independentes que desejam customizar suas experiências de viagem.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Grupos e Famílias: Famílias que planejam férias em conjunto, grupos de amigos que buscam compartilhar experiências de viagem e organizações que coordenam viagens em equipe.
+
+- Viajantes de Orçamento Limitado: Estudantes, jovens profissionais e qualquer pessoa que busque viajar de forma econômica, maximizando seus recursos financeiros.
+
+- Viajantes Experientes: Aqueles que viajam regularmente e buscam ferramentas avançadas para otimizar seus itinerários e controlar seus gastos de forma eficiente.
