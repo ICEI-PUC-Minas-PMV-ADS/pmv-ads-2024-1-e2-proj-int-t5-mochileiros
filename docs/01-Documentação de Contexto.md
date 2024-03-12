@@ -15,11 +15,13 @@ Além disso, estudos de mercado revelam que uma parcela significativa de viajant
 
 Nesse contexto, nossa aplicação surge como uma solução inovadora e abrangente, oferecendo não apenas funcionalidades de planejamento de viagens personalizadas, mas também recursos de gerenciamento financeiro em tempo real, proporcionando uma experiência integrada e acessível para todos os tipos de viajantes. Ao oferecer uma abordagem inclusiva e colaborativa para o planejamento de viagens, visamos atender a essa demanda crescente e ajudar os viajantes a realizarem seus sonhos de viagem de forma consciente, econômica e satisfatória
 
- • Inclusividade Financeira:Nossa aplicação oferece ferramentas e recursos para que pessoas com diferentes necessidades, orçamentos e rendas possam desfrutar de uma viagem tranquila e satisfatória, sem comprometer sua estabilidade financeira.
+## Beneficios
 
- • Facilidade de Planejamento: Nossa aplicação simplifica o processo de planejamento de viagens, permitindo que os usuários organizem todas as informações importantes em um só lugar.
-  • Controle Financeiro: Ao acompanhar os gastos em tempo real, os usuários podem evitar surpresas desagradáveis e manter-se dentro do orçamento planejado para a viagem.
-  • Colaboração em Grupo: Com a capacidade de exportar e compartilhar roteiros e planilhas de gastos, os usuários podem colaborar facilmente com outros membros do grupo da viagem, garantindo que todos estejam na mesma página quanto aos planos e despesas.
+- Inclusividade Financeira:Nossa aplicação oferece ferramentas e recursos para que pessoas com diferentes necessidades, orçamentos e rendas possam desfrutar de uma viagem tranquila e satisfatória, sem comprometer sua estabilidade financeira.
+
+ - Facilidade de Planejamento: Nossa aplicação simplifica o processo de planejamento de viagens, permitindo que os usuários organizem todas as informações importantes em um só lugar.
+-  Controle Financeiro: Ao acompanhar os gastos em tempo real, os usuários podem evitar surpresas desagradáveis e manter-se dentro do orçamento planejado para a viagem.
+  - Colaboração em Grupo: Com a capacidade de exportar e compartilhar roteiros e planilhas de gastos, os usuários podem colaborar facilmente com outros membros do grupo da viagem, garantindo que todos estejam na mesma página quanto aos planos e despesas.
 
 
 ## Público-Alvo
