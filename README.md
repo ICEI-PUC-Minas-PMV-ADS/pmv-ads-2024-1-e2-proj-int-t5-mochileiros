@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Mochileiros
 
-`CURSO`
+`analise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2° SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
 * Igor Fonseca Amorim
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Luiz Fernando de Almeida Dias
+* João Pedro Menezes Matias da 
+* Mariana Aparecida Rodrigues dos Santos
+* Luciano Carvalho Couto Ferreira
+* Victor Gabriel Cardoso Pio
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 ## Instruções de utilização
 
