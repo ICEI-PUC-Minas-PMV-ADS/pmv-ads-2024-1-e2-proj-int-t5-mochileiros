@@ -8,7 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-![Mode=Light (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/db848c04-6a8f-4ce0-a2dc-4bac29d3ae35)
+![Mode=Light (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/74ba800d-d492-4ae8-8927-55812c5351c0)
+
 ![Mode=Light](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/35db7444-c082-471e-a50e-abaee033ce60)
 
 
