@@ -1,11 +1,10 @@
 # Introdução
 
-Planejar uma viagem pode ser emocionante, mas também pode ser desafiador gerenciar todos os detalhes, especialmente os gastos. Com a nossa aplicação de roteiro de viagens e gerenciamento de gastos, facilitamos para os usuários planejarem suas aventuras e acompanharem seus gastos em tempo real, permitindo que pessoas com diferentes necessidades, orçamentos e rendas possam viajar com tranquilidade. Vamos explorar como nossa aplicação promove uma experiência de viagem inclusiva e acessível, além de facilitar o planejamento para grupos e famílias, possibilitando a realização de sonhos de viagem.
-
+Planejar uma viagem pode ser emocionante, mas também pode ser desafiador gerenciar todos os detalhes, especialmente os gastos. Este documento aborda uma aplicação de roteiro de viagens e gerenciamento de gastos, desenvolvida com o objetivo de tornar esse processo mais acessível e inclusivo para pessoas de diferentes perfis financeiros. A aplicação foi projetada para simplificar o planejamento e a execução de viagens, proporcionando uma experiência emocionante e memorável para todos os usuários.
 
 ## Objetivos
 
-O objetivo principal da nossa aplicação de roteiro de viagens e gerenciamento de gastos é facilitar e democratizar o acesso a viagens para pessoas de diferentes perfis financeiros, tornando o planejamento e a execução de viagens uma experiência acessível, inclusiva e emocionante. Buscamos fornecer ferramentas e recursos que permitam aos usuários controlarem seus gastos, planejarem itinerários personalizados e compartilharem experiências de viagem de forma colaborativa, garantindo que todos possam desfrutar de uma jornada memorável sem comprometer sua estabilidade financeira.
+O principal objetivo da aplicação de roteiro de viagens e gerenciamento de gastos é facilitar e democratizar o acesso a viagens para pessoas de diferentes perfis financeiros, tornando o planejamento e a execução de viagens uma experiência acessível, inclusiva e emocionante. Buscamos fornecer ferramentas e recursos que permitam aos usuários controlarem seus gastos, planejarem itinerários personalizados e facilitarem a organização de viagens em grupo, garantindo que todos possam desfrutar de uma jornada memorável sem comprometer sua estabilidade financeira.
 
 ## Justificativa
 
