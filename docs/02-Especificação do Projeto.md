@@ -33,10 +33,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Eu, como Sofia, | quero poder pesquisar e comparar opções de hospedagem econômica na aplicação, |para encontrar as melhores ofertas e economizar dinheiro durante a viagem.|
 |Eu, como Marcos,| quero ter a capacidade de criar e compartilhar listas de atividades e pontos de interesse com meus amigos na aplicação,| para planejar nossa agenda de viagem em grupo.|
 |Eu, como Marcos,| quero poder registrar e dividir as despesas compartilhadas entre os membros do grupo na aplicação,| para facilitar o controle e a divisão dos custos da viagem.|
-|Eu como André,| quero poder ter um planejamento de viagem personalizado em relação a previsão de possiveis gastos, | para facilitar o controle de despesas.|
-|Eu como Ana, | quero poder coordenar os meus itinerários, | para controlar o tempo durante o passeio.|
-|Eu como Lucia, | quero poder exportar meus roteiros em pdf,| para compartilhar com meus amigos e familiares.|
-|Eu como Juan, | quero poder controlar minhas despesas em tempo real,| para evitar surpresas desagradáveis.|
+|Eu como Maria, | quero poder coordenar os meus itinerários, | para controlar o tempo durante o passeio.|
+|Eu como Maria, | quero poder exportar meus roteiros em pdf,| para compartilhar com meus amigos e familiares.|
+|Eu como Sarah, | quero poder controlar minhas despesas em tempo real,| para evitar surpresas desagradáveis.|
+|Eu como Sarah,| quero poder ter um planejamento de viagem personalizado em relação a previsão de possiveis gastos, | para facilitar o controle de despesas.|
 
 
 ## Requisitos
