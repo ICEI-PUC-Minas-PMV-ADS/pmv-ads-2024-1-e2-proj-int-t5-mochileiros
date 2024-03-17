@@ -55,8 +55,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s | BAIXA  | 
-| RNF-003 | Responsividade                                                   | Alta   |
+|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s  | BAIXA  | 
+| RNF-003 | Responsividade                                                   | ALTA   |
 | RNF-004 | Facilidade de aprendizado                                        | MÉDIA  |
 | RNF-005 | LGBD (Lei Geral de Proteção de Dados)                            | ALTA   |
 
