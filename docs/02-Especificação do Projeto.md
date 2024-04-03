@@ -49,12 +49,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o usuário criar e personalizar   itinerário de viagem  | ALTA  | 
 |RF-002| A aplicação deve emitir um relatório do planejamento da viagem (os gastos programado da viagem)  | MÉDIA |
-|RF-003| Criação de cadastro e login dentro da plataforma                    | MÉDIA |
-|RF-004| A aplicação deve permitir que o usuário crie grupos de viagem com outros usuários | baixa | 
-|RF-005| Nos grupos de viagem a aplicação deve permitir compartilhar o itinerário da  viagem com  integrante do grupo    | MÉDIA | 
-|RF-006| Nos grupos de viagem a aplicação deve permitir fazer a divisão dos gastos entre os  integrante do grupo   | MÉDIA | 
-|RF-007| a aplicação deve permitir o controle dos  gasto na viagem planejado e não planejado   | MÉDIA | 
-|RF-008|  a aplicação deve permitir realizar planejamento de gastos da viagem (hospedagem, alimentação, passeio entre outros possíveis gasto na viagem) | MÉDIA |  
+|RF-003| A aplicação deve emitir um relatório do roteiros de viagem em PDF | MÉDIA |
+|RF-004| Criação de cadastro e login dentro da plataforma      | MÉDIA |
+|RF-005| A aplicação deve permitir que o usuário crie grupos de viagem com outros usuários | baixa | 
+|RF-006| Nos grupos de viagem a aplicação deve permitir compartilhar o itinerário da  viagem com  integrante do grupo    | MÉDIA | 
+|RF-007| Nos grupos de viagem a aplicação deve permitir fazer a divisão dos gastos entre os  integrante do grupo   | MÉDIA | 
+|RF-008| a aplicação deve permitir o controle dos  gasto na viagem planejado e não planejado   | MÉDIA | 
+|RF-009| a aplicação deve permitir o controle dos  gasto na viagem não planejado   | MÉDIA | 
+|RF-010|  a aplicação deve permitir realizar planejamento de gastos da viagem (hospedagem, alimentação, passeio entre outros possíveis gasto na viagem) | MÉDIA |  
+|RF-011|  a aplicação deve sugerir opções de hospedagem para o planejamento| BAIXA |  
 
 
 
