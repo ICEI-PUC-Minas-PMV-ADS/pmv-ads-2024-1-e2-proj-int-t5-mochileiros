@@ -54,9 +54,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Nos grupos de viagem a aplicação deve permitir compartilhar o itinerário da  viagem com  integrante do grupo    | MÉDIA | 
 |RF-006| Nos grupos de viagem a aplicação deve permitir fazer a divisão dos gastos entre os  integrante do grupo   | MÉDIA | 
 |RF-007| a aplicação deve permitir o controle dos  gasto na viagem planejado é não planejado   | MÉDIA | 
-|RF-008|     | MÉDIA |  
-|RF-009|     | MÉDIA |
-|RF-010|     | MÉDIA |
+|RF-008|  a aplicação deve permitir realizaro planejamento de gastos da viagem (hospedagem, alimentação, passeio entre outros possíveis gasto na viagem) | MÉDIA |  
+
 
 
 
@@ -64,11 +63,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
+|RNF-001| A aplicação deve ser responsiva | ALTA  | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s  | BAIXA  | 
-| RNF-003 | Responsividade                                                   | ALTA   |
-| RNF-004 | Facilidade de aprendizado                                        | MÉDIA  |
-| RNF-005 | LGBD (Lei Geral de Proteção de Dados)                            | ALTA   |
+|RNF-003 | Deverá respeitar toda LGBD (Lei Geral de Proteção de Dados) para o maximo de segurança ao usuário final | ALTA   |
+|RNF-004 | o sistema Deverá ser intuitivo/userfriendly | ALTA   |
+
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
