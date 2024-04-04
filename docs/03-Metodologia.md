@@ -75,20 +75,14 @@ O quadro kanban do GitHub Project está demonstrado na imagem a seguir e dispon�
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas utilizadas pela equipe foram selecionadas com base na sua eficácia, facilidade de uso e capacidade de atender às necessidades específicas do projeto. A seguir, apresentamos as ferramentas empregadas no projeto, cada uma com sua respectiva justificativa para sua escolha:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/blob/main/src/README.md                      |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/tree/main/docs                       |
+| Projeto de Interface                | Figma                              |[ https://https://www.figma.com/](https://www.figma.com/)
+| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Hospedagem                          | GitHub Pages                       | http://....                            |
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+
