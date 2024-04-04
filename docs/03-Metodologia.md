@@ -11,7 +11,7 @@ Realizaremos reuniões regulares de acompanhamento, e ferramentas de comunicaç�
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
-A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para hospedagem do repositório. Ao criar um repositório no GitHub para hospedar o código-fonte e outros artefatos relacionados ao desenvolvimento do aplicativo móvel, o organizamos de forma lógica, com diretórios separados para código-fonte, documentação, recursos e outros elementos relevantes do projeto.
+Ao criar um repositório no GitHub para hospedar o código-fonte e outros artefatos relacionados ao desenvolvimento do aplicativo móvel, o organizamos de forma lógica, com diretórios separados para código-fonte, documentação, recursos e outros elementos relevantes do projeto.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
