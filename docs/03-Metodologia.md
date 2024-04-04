@@ -10,20 +10,23 @@ Realizaremos reuniões regulares de acompanhamento, e ferramentas de comunicaç�
 
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para hospedagem do repositório. Ao criar um repositório no GitHub para hospedar o código-fonte e outros artefatos relacionados ao desenvolvimento do aplicativo móvel, o organizamos de forma lógica, com diretórios separados para código-fonte, documentação, recursos e outros elementos relevantes do projeto.
+foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para hospedagem do repositório. Ao criar um repositório no GitHub para hospedar o código-fonte e outros artefatos relacionados ao desenvolvimento do aplicativo móvel, o organizamos de forma lógica, com diretórios separados para código-fonte, documentação, recursos e outros elementos relevantes do projeto.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-main: versão estável já testada do software
-unstable: versão já testada do software, porém instável
-testing: versão em testes do software
-dev: versão de desenvolvimento do software
+* main: versão estável já testada do software
+* unstable: versão já testada do software, porém instável
+* testing: versão em testes do software
+* dev: versão de desenvolvimento do software
+* 
 Quanto à gerência de issues, serão usadas para rastrear bugs, solicitações de recursos e outras tarefas relacionadas ao desenvolvimento do projeto. Cada issue é cuidadosamente descrita, atribuída a um membro da equipe responsável e priorizada com base em sua importância e urgência. As issues são regularmente revisadas durante as tarefas e reuniões, e são atualizadas por cada membro da equipe. Após a conclusão de uma issue, ela será revisada, testada e fechada, garantindo que o progresso do projeto fosse documentado e que todas as tarefas fossem concluídas de forma satisfatória. O projeto adota a seguinte convenção para etiquetas:
 
-documentation: melhorias ou acréscimos à documentação
-bug: uma funcionalidade encontra-se com problemas
-enhancement: uma funcionalidade precisa ser melhorada
-feature: uma nova funcionalidade precisa ser introduzida
+*documentation: melhorias ou acréscimos à documentação
+*bug: uma funcionalidade encontra-se com problemas
+*enhancement: uma funcionalidade precisa ser melhorada
+*feature: uma nova funcionalidade precisa ser introduzida
+
 Para termos um melhor controle do projeto, definimos que utilizaremos as "Tags" listadas acima para marcar releases importantes do projeto. Cada tag recebeu um nome significativo e explicativo, facilitando a identificação e o acompanhamento da aplicação ao longo do tempo. Os "Merges" serão realizados regularmente para integrar o trabalho de diferentes membros da equipe ou ramificações do projeto. Cada merge será precedido por uma revisão detalhada, envolvendo a análise das alterações propostas e a identificação de possíveis conflitos ou problemas de integração. Os "Commits" irão ser feitos de forma individual e explicativa, com mensagens claras que descrevam as alterações realizadas. Isso permite que a equipe acompanhe o histórico de desenvolvimento do projeto e compreenda as mudanças implementadas em cada parte da documentação e código.
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
