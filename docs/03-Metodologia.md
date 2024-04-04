@@ -41,13 +41,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe adotou abordagens ágeis para o desenvolvimento do projeto, reconhecendo a necessidade de flexibilidade, colaboração e adaptação contínua aos requisitos em evolução. Como estrutura para direcionar esse processo ágil, optamos por utilizar o Scrum.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Dentro dessa estrutura, a equipe se organiza de acordo com os papéis tradicionais do Scrum:
 
+• Scrum Master: Igor Fonseca;
+
+• Product Owner: Luciano Carvalho;
+
+• Equipe de Desenvolvimento: Igor Fonseca, João Pedro, Luciano Carvalho, Luiz Fernando, Mariana Rodrigues, Victor;
+
+• Equipe de Design: Luciano Carvalho, João Pedro, Mariana Rodrigues;
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
