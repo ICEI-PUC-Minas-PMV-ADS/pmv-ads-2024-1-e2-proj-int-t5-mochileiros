@@ -53,8 +53,8 @@ Dentro dessa estrutura, a equipe se organiza de acordo com os papéis tradiciona
 
 • Equipe de Design: Luciano Carvalho, João Pedro, Mariana Rodrigues;
 ### Processo
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/145329783/6351127e-193f-4013-8ff5-a642438ab0ec)
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
