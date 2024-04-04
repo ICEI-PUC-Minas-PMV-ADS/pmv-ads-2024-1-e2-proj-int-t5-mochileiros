@@ -30,13 +30,6 @@ Quanto à gerência de issues, serão usadas para rastrear bugs, solicitações 
 Para termos um melhor controle do projeto, definimos que utilizaremos as "Tags" listadas acima para marcar releases importantes do projeto. Cada tag recebeu um nome significativo e explicativo, facilitando a identificação e o acompanhamento da aplicação ao longo do tempo. Os "Merges" serão realizados regularmente para integrar o trabalho de diferentes membros da equipe ou ramificações do projeto. Cada merge será precedido por uma revisão detalhada, envolvendo a análise das alterações propostas e a identificação de possíveis conflitos ou problemas de integração. Os "Commits" irão ser feitos de forma individual e explicativa, com mensagens claras que descrevam as alterações realizadas. Isso permite que a equipe acompanhe o histórico de desenvolvimento do projeto e compreenda as mudanças implementadas em cada parte da documentação e código.
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -66,12 +59,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do GitHub Project está demonstrado na imagem a seguir e disponível através da URL: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/910/views/2?layout=board
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/145329783/6351127e-193f-4013-8ff5-a642438ab0ec)
 
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+
 
 ### Ferramentas
 
@@ -82,7 +70,7 @@ As ferramentas utilizadas pela equipe foram selecionadas com base na sua eficác
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/blob/main/src/README.md                      |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/tree/main/docs                       |
 | Projeto de Interface                | Figma                              |[ https://https://www.figma.com/](https://www.figma.com/)
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/910 |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
  
 
