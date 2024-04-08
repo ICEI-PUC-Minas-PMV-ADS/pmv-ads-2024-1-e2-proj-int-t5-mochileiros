@@ -30,11 +30,11 @@ Por exemplo:
 | Caso de Teste 	| CT-04 – Editar itinerário	|
 |Requisito Associado | RF-001	- A aplicação deve possuir opção itinerário criados, verificar itinerário criados é editalos. |
 | Objetivo do Teste 	| Verificar se o usuário consegue  Editar itinerário |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar no botão itinerário <br> -  Clicar no botão editar itinerário <br> - modificar qualquer campo do formulario  - Clicar em "Login" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar no botão itinerário <br> -  Clicar no botão editar itinerário <br> - modificar qualquer campo do formulario |
 |Critério de Êxito | - itinerário modificado com sucesso. |
 |  	|  	|
 | Caso de Teste 	| CT-05 – relatório de gastos 	|
-|Requisito Associado | RF-002	- A aplicação deve possuir opção gerar relatorio de gastos |
+|Requisito Associado | RF-002\RF-008\RF-009\RF-010	- A aplicação deve possuir opção gerar relatorio de gastos |
 | Objetivo do Teste 	| Verificar se o usuário consegue gerar relatorio de gastos |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> - Clicar no botão Relatorios <br> -selecionar relatorio de gastos> emitir relatorio |
 |Critério de Êxito | - O relatorio foi gerado com sucesso. |
@@ -45,11 +45,31 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> - Clicar no botão Relatorios <br> -selecionar relatorio de gastos> emitir relatorio |
 |Critério de Êxito | - Pdf do roteiro foi gerado com sucesso. |
 |  	|  	|
-| Caso de Teste 	| CT-07 – 	|
-|Requisito Associado | RF-00Y	-  |
-| Objetivo do Teste 	| . |
-| Passos 	|  |
-|Critério de Êxito |  |
+| Caso de Teste 	| CT-07 – Grupos de viagem	|
+|Requisito Associado | RF-005	- A aplicação deve possuir opção para criar grupo de viagem |
+| Objetivo do Teste 	| .Verificar se o usuário consegue criar grupo de viagem |
+| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> |Clicar no botão criar grupo de viagem é prencher os formularios
+|Critério de Êxito | Grupos de viagem criado com sucesso |
+|  	|  	|
+| Caso de Teste 	| CT-08 – Copartilhar itinerário |
+|Requisito Associado | RF-006	- A aplicação deve copartilhar itinerário para membros do grupo |
+| Objetivo do Teste 	| .Verificar se o usuário consegue copartilhar  itinerário com o grupo |
+| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> |Clicar no botão meus grupos de viagem <br> Clicar no botão copartilhar itinerário
+|Critério de Êxito | Grupos de viagem criado com sucesso | 
+|  	|  	|
+| Caso de Teste 	| CT-09 – dividir gastos |
+|Requisito Associado | RF-007	- A aplicação deve dividir gastos entre os membros do grupo |
+| Objetivo do Teste 	| Realizar a divisão do gasto da viagem |
+| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> |Clicar no botão meus grupos de viagem <br> Clicar no botão dividir gastos
+|Critério de Êxito | Emição do relatorio de gastos dividido entre os menbros do grupo | 
+|  	|  	|
+| Caso de Teste 	| CT-09 – opções de hospedagem |
+|Requisito Associado | RF-007	- A aplicação deve sugerir opções de hospedagem |
+| Objetivo do Teste 	| mostrar sugestão para hospedagem|
+| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> |Clicar no botão meus itinerário<br> | selecionar a aba de sugestão 
+|Critério de Êxito | Exibição de sugestões de hospedagem | 
+|  	|  	|
+
 
  
 > **Links Úteis**:
