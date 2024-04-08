@@ -66,7 +66,7 @@ Por exemplo:
 | Caso de Teste 	| CT-09 – opções de hospedagem |
 |Requisito Associado | RF-007	- A aplicação deve sugerir opções de hospedagem |
 | Objetivo do Teste 	| mostrar sugestão para hospedagem|
-| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> Clicar no botão meus itinerário <br> selecionar a aba de sugestão 
+| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> - Clicar no botão meus itinerário <br> - selecionar a aba de sugestão 
 |Critério de Êxito | Exibição de sugestões de hospedagem | 
 |  	|  	|
 
