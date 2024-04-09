@@ -43,21 +43,27 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
+
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário criar e personalizar   itinerário de viagem  | ALTA  | 
-|RF-002| A aplicação deve emitir um relatório do planejamento da viagem (os gastos programado da viagem)  | MÉDIA |
-|RF-003| A aplicação deve emitir um relatório do roteiros de viagem em PDF | MÉDIA |
-|RF-004| Criação de cadastro e login dentro da plataforma      | MÉDIA |
-|RF-005| A aplicação deve permitir que o usuário crie grupos de viagem com outros usuários | baixa | 
-|RF-006| Nos grupos de viagem a aplicação deve permitir compartilhar o itinerário da  viagem com  integrante do grupo    | MÉDIA | 
-|RF-007| Nos grupos de viagem a aplicação deve permitir fazer a divisão dos gastos entre os  integrante do grupo   | MÉDIA | 
-|RF-008| a aplicação deve permitir o controle dos  gasto na viagem planejado e não planejado   | MÉDIA | 
-|RF-009| a aplicação deve permitir o controle dos  gasto na viagem não planejado   | MÉDIA | 
-|RF-010|  a aplicação deve permitir realizar planejamento de gastos da viagem (hospedagem, alimentação, passeio entre outros possíveis gasto na viagem) | MÉDIA |  
-|RF-011|  a aplicação deve sugerir opções de hospedagem para o planejamento| BAIXA |  
+|RF-001| A aplicação deve permitir o autorregistro e gerenciamento do cadastro de usuários | ALTA  | 
+|RF-002| A aplicação deve permitir que o usuário previamente cadastrado faça login | ALTA  | 
+|RF-003| A aplicação deve permitir que o usuário gerencie viagens  | ALTA  | 
+|RF-004| A aplicação deve permitir que o usuário vincule outros participantes a uma viagem criando um "grupo de viagem". Cada grupo de viagem poderá ter um ou mais participantes. Para cada participante, deve-se informar e-mail  | ALTA  | 
+|RF-005| 	A aplicação deve permitir que sejam registradas despesas a qualuqer tempo, mesmo que após a fase de planejamento.| ALTA  | 
+|RF-006| A aplicação deve emitir um relatório do planejamento da viagem (os gastos programado da viagem)  | MÉDIA |
+|RF-007| A aplicação deve permitir que o usuário gerenciar despesa de viagem. Uma despesa deverá estar vinculado, obrigatoriamente, a uma viagem. | MÉDIA |
+|RF-008| A aplicação deve emitir um relatório do roteiros de viagem  | MÉDIA |
+|RF-009| Criação de cadastro e login dentro da plataforma      | MÉDIA |
+|RF-010| A aplicação deve permitir que o usuário crie grupos de viagem com outros usuários | baixa | 
+|RF-011| Nos grupos de viagem a aplicação deve permitir compartilhar o itinerário da  viagem com  integrante do grupo    | MÉDIA | 
+|RF-012| Nos grupos de viagem a aplicação deve permitir fazer a divisão dos gastos entre os  integrante do grupo   | MÉDIA | 
+|RF-013| a aplicação deve permitir o controle dos  gasto na viagem planejado e não planejado   | MÉDIA | 
+|RF-014| a aplicação deve permitir o controle dos  gasto na viagem não planejado   | MÉDIA | 
+|RF-015|  a aplicação deve permitir realizar planejamento de gastos da viagem (hospedagem, alimentação, passeio entre outros possíveis gasto na viagem) | MÉDIA |  
+|RF-016|  a aplicação deve sugerir opções de hospedagem para o planejamento| BAIXA |  
 
 
 
@@ -70,6 +76,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s  | BAIXA  | 
 |RNF-003 | Deverá respeitar toda LGBD (Lei Geral de Proteção de Dados) para o maximo de segurança ao usuário final | ALTA   |
 |RNF-004 | o sistema Deverá ser intuitivo/userfriendly | ALTA   |
+|RNF-005 | A aplicação deve gerar um relatório do roteiro de viagem em PDF| MEDIA   |
 
 
 
