@@ -24,7 +24,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 ## Tarefa 3
 | **Tarefa 3** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-| Adicionar um novo tema. | Incluir com êxito um novo tema e confirmar sua visualização na lista de temas disponíveis. | Facilidade de adição do tema, clareza das etapas do processo, confirmação efetiva da inclusão do tema, tempo necessário para completar a operação. |
+| Adicionar uma viagem. | Incluir com êxito uma nova viagem e confirmar sua visualização de viagens na lista. | Facilidade de adição de viagem, clareza das etapas do processo, confirmação efetiva da inclusão da viagem, tempo necessário para completar a operação. |
 
 
 ## Tarefa 4
