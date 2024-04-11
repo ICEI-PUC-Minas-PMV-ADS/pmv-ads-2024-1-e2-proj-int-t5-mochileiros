@@ -60,7 +60,6 @@ O quadro kanban do GitHub Project está demonstrado na imagem a seguir e dispon�
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/145329783/6351127e-193f-4013-8ff5-a642438ab0ec)
 
 
-
 ### Ferramentas
 
 As ferramentas utilizadas pela equipe foram selecionadas com base na sua eficácia, facilidade de uso e capacidade de atender às necessidades específicas do projeto. A seguir, apresentamos as ferramentas empregadas no projeto, cada uma com sua respectiva justificativa para sua escolha:
