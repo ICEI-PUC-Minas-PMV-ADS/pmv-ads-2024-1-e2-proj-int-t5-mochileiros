@@ -21,17 +21,17 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
-| Caso de Teste 	| CT-03 – Criar itinerário	|
-|Requisito Associado | RF-001	- A aplicação deve possuir opção de Criar itinerário, após clicar nessa opção sera aberto um Formulário para crição de um itinerário |
-| Objetivo do Teste 	| Verificar se o usuário consegue criar itinerário. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br>  - Clicar no botão "Criar  itinerário" <br> - Preencher o fomulario de itinerário <br> - Clicar no botão "Criar" |
-|Critério de Êxito | -  itinerário criado com sucesso |
+| Caso de Teste 	| CT-03 – Criar despesa	|
+|Requisito Associado | RF-001	- A aplicação deve possuir opção de Criar despesa, após clicar nessa opção sera aberto um Formulário para crição de uma despesa |
+| Objetivo do Teste 	| Verificar se o usuário consegue criar despesa. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br>  - Clicar no botão "Criar  despesa" <br> - Preencher o fomulario de despesa <br> - Clicar no botão "Criar" |
+|Critério de Êxito | -  despesa criado com sucesso |
 |  	|  	|
-| Caso de Teste 	| CT-04 – Editar itinerário	|
-|Requisito Associado | RF-001	- A aplicação deve possuir opção itinerário criados, verificar itinerário criados é editalos. |
-| Objetivo do Teste 	| Verificar se o usuário consegue  Editar itinerário |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar no botão itinerário <br> -  Clicar no botão editar itinerário <br> - modificar qualquer campo do formulario |
-|Critério de Êxito | - itinerário modificado com sucesso. |
+| Caso de Teste 	| CT-04 – Editar desoesa	|
+|Requisito Associado | RF-001	- A aplicação deve possuir opção despesa criados, verificar despesa criados é editalos. |
+| Objetivo do Teste 	| Verificar se o usuário consegue  Editar despesa |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar no botão despesa <br> -  Clicar no botão editar despesa <br> - modificar qualquer campo do formulario |
+|Critério de Êxito | - despesa modificado com sucesso. |
 |  	|  	|
 | Caso de Teste 	| CT-05 – relatório de gastos 	|
 |Requisito Associado | RF-002\RF-008\RF-009\RF-010	- A aplicação deve possuir opção gerar relatorio de gastos |
@@ -66,7 +66,7 @@ Por exemplo:
 | Caso de Teste 	| CT-09 – opções de hospedagem |
 |Requisito Associado | RF-007	- A aplicação deve sugerir opções de hospedagem |
 | Objetivo do Teste 	| mostrar sugestão para hospedagem|
-| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> - Clicar no botão meus itinerário <br> - selecionar a aba de sugestão 
+| Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> - Clicar no botão minhas viagens <br> - selecionar a aba de sugestão 
 |Critério de Êxito | Exibição de sugestões de hospedagem | 
 |  	|  	|
 
