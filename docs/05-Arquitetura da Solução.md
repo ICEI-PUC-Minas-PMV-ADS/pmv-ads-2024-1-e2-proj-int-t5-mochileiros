@@ -5,7 +5,8 @@
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
-![mochileiros drawio (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/d4f47cc6-8449-4348-8d5f-57e4ff7e1404)
+
+![class_diagram (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/ed03dfd2-8ff3-4790-9492-171736074e42)
 
 Link de acesso: https://drive.google.com/file/d/1Pj9u8ATWv8oRffPn1rYhLoA_AivUhbZK/view?usp=sharing
 
