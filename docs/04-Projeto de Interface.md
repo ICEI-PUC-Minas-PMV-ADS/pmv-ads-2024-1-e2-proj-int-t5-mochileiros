@@ -32,7 +32,11 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
+
+https://www.figma.com/file/1YqIA95n3vGVzdyNS0rtdB/Mochileiros?type=design&node-id=0%3A1&mode=design&t=poHytQBw8crZSxCA-1
+
+ [Mochileiros.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/files/14972035/Mochileiros.pdf)
+
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
