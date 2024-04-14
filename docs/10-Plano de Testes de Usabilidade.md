@@ -30,7 +30,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 ## Tarefa 4
 | **Tarefa 4** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-| Documentar o conhecimento adquirido em um tema específico. | Efetuar com sucesso o registro do conteúdo aprendido em um tema e confirmar sua visualização na lista de registros. | Facilidade em documentar o conhecimento, precisão na associação com o tema adequado, confirmação inequívoca do registro efetuado, tempo necessário para completar o processo. |
+| adicionar um roteiro de viagem, com destaque nos pontos turístico, restaurantes, llocais que deseja visitar durante a viagem. | Efetuar com sucesso o registro do roteiro e confirmar sua visualização na lista de viagens. | Facilidade em criar roteiro viagens, precisão na associação com a viagem |
 
 ## Tarefa 5
 | **Tarefa 5** | **Critério de Êxito** | **O que será avaliado** |
@@ -40,12 +40,22 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 ## Tarefa 6
 | **Tarefa 6** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-| Adicionar uma biografia. | Adicionar uma biografia e visualizá-la na lista de biografias. | Facilidade em adicionar a biografias, clareza das etapas necessárias, confirmação da adição da biografia, tempo necessário para concluir. |
+| Criar grupo de viagem. | Adicionar mebros e visualizá-la na lista de membros | Facilidade em  criar grupo de viagem, clareza das etapas necessárias, confirmação da adição do membro do grupo.|
 
 ## Tarefa 7
 | **Tarefa 7** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-|Colocar sua identidade com todas as espeficicações necessárias. | Escrever informações para seu perfil | Facilidade em escrever, clareza das funcionalidades, tempo necessário para concluir cada operação. |
+| relatorio de gastoso | Criação do planejamento  de gastos para a viagem, é  Adicionar gastos não planejado com posibilidade é repartir para mebros do  grupo | Facilidade na criação, clareza das etapas necessárias da criaçao, é divisão igualitaria entre os membros |
+
+## Tarefa 8
+| **Tarefa 9** | **Critério de Êxito** | **O que será avaliado** |
+|--------------|-----------------------|-------------------------|
+|Gerar relatorio de gastoso | Emiçao de gastoso em PDF | Facilidade em emitir, tempo necessário de 3 segundos para concluir a operação. |
+
+## Tarefa 9
+| **Tarefa 8** | **Critério de Êxito** | **O que será avaliado** |
+|--------------|-----------------------|-------------------------|
+|Gerar roteiro de viagem | Emiçao do roteiro de viagem em PDF é compartilhar com os membros| Facilidade em emitir, tempo necessário de 3 segundos para concluir a operação. |
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
