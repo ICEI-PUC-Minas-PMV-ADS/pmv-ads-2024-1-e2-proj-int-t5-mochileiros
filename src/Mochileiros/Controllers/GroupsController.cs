@@ -22,7 +22,7 @@ namespace Mochileiros.Controllers
         // GET: Groups
         public async Task<IActionResult> Index()
         {
-            var mochileirosContext = _context.Group.Include(@ => @.Travel);
+            var mochileirosContext = _context.Group.Include(g => g.Travel);
             return View(await mochileirosContext.ToListAsync());
         }
 
@@ -35,7 +35,7 @@ namespace Mochileiros.Controllers
             }
 
             var @group = await _context.Group
-                .Include(@ => @.Travel)
+                .Include(g => g.Travel)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (@group == null)
             {
@@ -131,7 +131,7 @@ namespace Mochileiros.Controllers
             }
 
             var @group = await _context.Group
-                .Include(@ => @.Travel)
+                .Include(g => g.Travel)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (@group == null)
             {
