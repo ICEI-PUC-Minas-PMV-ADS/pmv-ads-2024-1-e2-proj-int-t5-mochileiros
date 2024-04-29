@@ -11,6 +11,6 @@ public class Expense
     public string? Name { get; set; }
     public DateTime Date { get; set; }
     public int TravelID { get; set; }
-    public Travel Travel { get; set; }
+    public Travel? Travel { get; set; }
 }
 

@@ -4,51 +4,153 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>@Html.DisplayFor(model => model.Destination)</h1>
+    <div id="travelDetails">
+        <div class="kanban" >
+@foreach (var item in (dynamic)ViewData["daysArray"])
+{
+            <div class="kanban__column" data-date="@item.date" data-travelid="@item.travelId">
+                <div class="kanban__column-title">Dia @item.id</div>
+                <div class="kanban__items">
+                @foreach (var expense in @item.expenses){
+<div class="card  kanban__item" draggable="true"  id="@expense.Id" data-value="@expense.Value"  data-description="@expense.Name" data-type="@expense.Type" data-name="@expense.Name" style="width: 18rem; margin-top:48px">
+    <div class="card-body">
+        <h5 class="card-title">@expense.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@expense.Description</h6>
+        <p class="card-text">Valor: @expense.Value</p>
+        <p class="card-text">Tipo: @expense.Type</p>
 
-<div>
-    <h4>Travel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TravelNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TravelNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Destination)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Destination)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StartDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.StartDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EndDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EndDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GroupId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GroupId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
-        </dd>
-    </dl>
+        <button class="btn btn-sm btn-primary" data-toggle="modal" onclick="openEditModal('@expense.Id')" data-target="#editExpenseModal">Editar</button>
+
+        <button class="btn btn-sm btn-danger" data-toggle="modal" onclick="openDeleteModal('@expense.Id')" data-target="#editExpenseModal">Excluir</button>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+                }
+                </div>
+                
+                <button class="kanban__add-item " style="margin-top:48px;" onclick="openCreateModal('@item.date', '@item.travelId')" data-target="#editExpenseModal" type="button">Adicionar Item</button>
+                </div>
+            }
+        </div>
+    </div>
+
+<div class="modal fade" id="editExpenseModal" tabindex="-1" role="dialog" aria-labelledby="editExpenseModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        </div>
+    </div>
 </div>
+
+<script>
+  function openEditModal(expenseId) {
+    $.get('/Expenses/Edit/' + expenseId, function(data) {
+        $('#editExpenseModal .modal-content').html(data);
+        $('#editExpenseModal').modal('show');
+    });
+}
+  function openDeleteModal(expenseId) {
+    $.get('/Expenses/Delete/' + expenseId, function(data) {
+        $('#editExpenseModal .modal-content').html(data);
+        $('#editExpenseModal').modal('show');
+    });
+}
+
+  function openCreateModal(date, travelID) {
+    sessionStorage.setItem("date", date);
+    sessionStorage.setItem("travelId", travelID);
+
+    $.get('/Expenses/Create', function(data) {
+        $('#editExpenseModal .modal-content').html(data);
+        $('#editExpenseModal').modal('show');
+    });
+  }
+
+  document.addEventListener("dragstart", (e) => {
+  e.target.classList.add("dragging");
+});
+
+document.addEventListener("dragend", (e) => {
+  e.target.classList.remove("dragging");
+
+});
+
+
+  document.querySelectorAll('.kanban__column').forEach((item) => {
+
+  item.addEventListener("dragover", (e) => {
+      event.preventDefault();
+
+    const dragging = document.querySelector(".dragging");
+    const applyAfter = getNewPosition(item, e.clientY);
+
+    if (applyAfter) {
+      applyAfter.insertAdjacentElement("afterend", dragging);
+    } else {
+      item.prepend(dragging);
+    }
+
+  });
+  
+
+    item.addEventListener("drop", (e) => {
+         e.preventDefault(); 
+        const targetColumn = e.currentTarget;
+       
+  const data = e.dataTransfer.getData("text");
+  const expenseItem = document.getElementById(data)
+    const formData = new FormData();
+    formData.append("Id", Number(data));
+    formData.append("Name",  expenseItem.dataset.name);
+    formData.append("Description", expenseItem.dataset.description);
+    formData.append("Value", Number(expenseItem.dataset.value));
+    formData.append("Type", expenseItem.dataset.type);
+    formData.append("TravelID",Number(targetColumn.dataset.travelid));
+    formData.append("Date",  new Date(targetColumn.dataset.date).toISOString().substr(0, 10));
+
+
+console.log(formData)
+
+      $.ajax({
+        url: `/Expenses/Edit/${data}`,
+        method: 'POST',
+         processData: false, // Prevent jQuery from processing the data
+        contentType: false, 
+        data: formData,
+        success: function(response) {
+            console.log('Expense updated successfully:', response);
+        },
+        error: function(xhr, status, error) {
+            console.log(xhr)
+            console.error('Error updating expense:', error);
+        }
+    });
+
+    });
+});
+
+function drag(e) {
+  e.dataTransfer.setData("text", e.target.id);
+}
+
+function getNewPosition(column, posY) {
+  const cards = column.querySelectorAll(".item:not(.dragging)");
+  let result;
+
+  for (let refer_card of cards) {
+    const box = refer_card.getBoundingClientRect();
+    const boxCenterY = box.y + box.height / 2;
+
+    if (posY >= boxCenterY) result = refer_card;
+  }
+
+  return result;
+}
+
+document.querySelectorAll('.kanban__item').forEach(draggable => {
+  draggable.addEventListener("dragstart", drag);
+});
+
+
+
+
+</script>

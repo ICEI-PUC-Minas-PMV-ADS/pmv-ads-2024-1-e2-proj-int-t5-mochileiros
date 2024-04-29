@@ -35,11 +35,48 @@ namespace Mochileiros.Controllers
 
             var travel = await _context.Travel
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (travel == null)
             {
                 return NotFound();
             }
 
+            var days = travel.EndDate - travel.StartDate;
+            int daysApart = (int)days.TotalDays;
+
+
+
+            var daysArray = new List<object>();
+
+            for (int i = 0; i <= daysApart; i++)
+            {
+                var currentDay = travel.StartDate.AddDays(i);
+
+                var expensesForDay = await _context.Expense
+                    .Where(e => e.TravelID == travel.Id && e.Date.Date == currentDay.Date)
+                    .ToListAsync();
+
+                var dayObject = new
+                {
+                    id = i + 1,
+                    travelId = travel.Id,
+                    date = currentDay,
+                    expenses = expensesForDay.Select(e => new
+                    {
+                        e.Id,
+                        e.Description,
+                        e.Value,
+                        e.Type,
+                        e.Name,
+                        e.Date
+                    })
+                };
+
+                daysArray.Add(dayObject);
+            }
+
+
+            ViewData["daysArray"] = daysArray;
             return View(travel);
         }
 

@@ -47,9 +47,9 @@ namespace Mochileiros.Controllers
 
         // GET: Expenses/Create
         public IActionResult Create()
-        {
+    {  
             ViewData["TravelID"] = new SelectList(_context.Travel, "Id", "Id");
-            return View();
+            return PartialView();
         }
 
         // POST: Expenses/Create
@@ -59,14 +59,29 @@ namespace Mochileiros.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Description,Value,Type,Name,Date,TravelID")] Expense expense)
         {
-            if (ModelState.IsValid)
+            System.Diagnostics.Debug.WriteLine(ModelState.IsValid);
+            System.Diagnostics.Debug.WriteLine(expense);
+            if (!ModelState.IsValid)
             {
-                _context.Add(expense);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                // If the ModelState is not valid, there are errors
+                IEnumerable<string> errorMessages = ModelState.Values
+                    .SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage);
+
+                // Output error messages
+                foreach (var errorMessage in errorMessages)
+                {
+                    System.Diagnostics.Debug.WriteLine(errorMessage);
+                }
+
+                // Return a response indicating failure, possibly with error messages
+                return BadRequest(errorMessages);
             }
-            ViewData["TravelID"] = new SelectList(_context.Travel, "Id", "Id", expense.TravelID);
-            return View(expense);
+
+
+            _context.Add(expense);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Details", "Travels", new { id = expense.TravelID });
         }
 
         // GET: Expenses/Edit/5
@@ -83,19 +98,34 @@ namespace Mochileiros.Controllers
                 return NotFound();
             }
             ViewData["TravelID"] = new SelectList(_context.Travel, "Id", "Id", expense.TravelID);
-            return View(expense);
+            return PartialView(expense);
         }
 
         // POST: Expenses/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Description,Value,Type,Name,Date,TravelID")] Expense expense)
         {
             if (id != expense.Id)
             {
                 return NotFound();
+            }
+             if (!ModelState.IsValid)
+            {
+                // If the ModelState is not valid, there are errors
+                IEnumerable<string> errorMessages = ModelState.Values
+                    .SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage);
+
+                // Output error messages
+                foreach (var errorMessage in errorMessages)
+                {
+                    System.Diagnostics.Debug.WriteLine(errorMessage);
+                }
+
+                // Return a response indicating failure, possibly with error messages
+                return BadRequest(errorMessages);
             }
 
             if (ModelState.IsValid)
@@ -116,7 +146,8 @@ namespace Mochileiros.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+
+                return RedirectToAction("Details", "Travels", new { id = expense.TravelID });
             }
             ViewData["TravelID"] = new SelectList(_context.Travel, "Id", "Id", expense.TravelID);
             return View(expense);
@@ -138,7 +169,7 @@ namespace Mochileiros.Controllers
                 return NotFound();
             }
 
-            return View(expense);
+            return PartialView(expense);
         }
 
         // POST: Expenses/Delete/5
@@ -153,7 +184,7 @@ namespace Mochileiros.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Details", "Travels", new { id = expense.TravelID });
         }
 
         private bool ExpenseExists(int id)
