@@ -91,7 +91,7 @@ namespace Mochileiros.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TravelNumber,Destination,StartDate,EndDate,GroupId,Image")] Travel travel)
+        public async Task<IActionResult> Create([Bind("Id,TravelNumber,Destination,UserId,StartDate,EndDate,GroupId,Image")] Travel travel)
         {
             if (ModelState.IsValid)
             {
@@ -123,7 +123,7 @@ namespace Mochileiros.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TravelNumber,Destination,StartDate,EndDate,GroupId,Image")] Travel travel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,TravelNumber,Destination,UserId,StartDate,EndDate,GroupId,Image")] Travel travel)
         {
             if (id != travel.Id)
             {
