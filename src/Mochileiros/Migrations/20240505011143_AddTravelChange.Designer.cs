@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Mochileiros.Data;
 
@@ -10,9 +11,11 @@ using Mochileiros.Data;
 namespace Mochileiros.Migrations
 {
     [DbContext(typeof(MochileirosContext))]
-    partial class MochileirosContextModelSnapshot : ModelSnapshot
+    [Migration("20240505011143_AddTravelChange")]
+    partial class AddTravelChange
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.4");

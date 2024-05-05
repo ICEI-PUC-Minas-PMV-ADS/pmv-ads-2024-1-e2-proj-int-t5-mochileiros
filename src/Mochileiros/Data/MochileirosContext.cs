@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Models;
+using System.Collections;
 
 namespace Mochileiros.Data
 {
@@ -34,18 +35,28 @@ namespace Mochileiros.Data
             modelBuilder.Entity<Travel>().HasOne<Group>(t => t.Group) // Uma viagem pertence a um grupo
         .WithOne(g => g.Travel) // Um grupo possui uma viagem
         .HasForeignKey<Group>(g => g.TravelId); // Chave estrangeira para TravelId
+            
+            
+ 
+
+            modelBuilder.Entity<User>()
+        .HasMany(g => g.Travels) // Navigation property for Travel (collection of Expenses)
+        .WithOne(t => t.User)     // Navigation property for Expense (one Travel)
+        .HasForeignKey(t => t.UserId); // Foreign key in the Expense table (case-sensitive)
 
             modelBuilder.Entity<Travel>()
-.HasMany(g => g.Expenses) // Navigation property for Travel (collection of Expenses)
-.WithOne(t => t.Travel)     // Navigation property for Expense (one Travel)
-.HasForeignKey(t => t.TravelID); // Foreign key in the Expense table (case-sensitive)
-
+        .HasMany(g => g.Expenses) // Navigation property for Travel (collection of Expenses)
+        .WithOne(t => t.Travel)     // Navigation property for Expense (one Travel)
+        .HasForeignKey(t => t.TravelID); // Foreign key in the Expense table (case-sensitive)
+            
+            
 
 
             modelBuilder.Entity<Group>()
         .HasOne(g => g.Travel) // Um Grupo pertence a uma Travel
         .WithOne(t => t.Group) // Uma Travel possui um Grupo
         .HasForeignKey<Group>(g => g.TravelId); // Chave estrangeira para TravelId
+
 
             modelBuilder.Entity<Group>()
                 .HasMany(g => g.Users) // Um Grupo pode ter vários usuários

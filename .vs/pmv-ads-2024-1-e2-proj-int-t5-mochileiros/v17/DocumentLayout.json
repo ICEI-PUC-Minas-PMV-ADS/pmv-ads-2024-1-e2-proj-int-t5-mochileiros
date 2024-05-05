@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\migrations\\20240503140520_m02-altertabletravel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\migrations\\20240503140520_m02-altertabletravel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\data\\mochileiroscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\data\\mochileiroscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\migrations\\mochileiroscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\migrations\\mochileiroscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\migrations\\20240427214124_initiateanothertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\migrations\\20240427214124_initiateanothertables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\migrations\\20240428140633_changeexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\migrations\\20240428140633_changeexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\migrations\\20240427200237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\migrations\\20240427200237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\models\\travel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\models\\travel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\controllers\\travelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\controllers\\travelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\views\\travels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\views\\travels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\views\\users\\viagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\views\\users\\viagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|c:\\users\\carto\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218B073B-AE10-44C5-B60A-E3BEF20F9416}|src\\Mochileiros\\Mochileiros.csproj|solutionrelative:src\\mochileiros\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240503140520_M02-AlterTableTravel.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240503140520_M02-AlterTableTravel.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Migrations\\20240503140520_M02-AlterTableTravel.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240503140520_M02-AlterTableTravel.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Migrations\\20240503140520_M02-AlterTableTravel.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswD0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:05:20.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MochileirosContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\MochileirosContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Migrations\\MochileirosContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\MochileirosContextModelSnapshot.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Migrations\\MochileirosContextModelSnapshot.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAgwBUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:00:20.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240428140633_ChangeExpense.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240428140633_ChangeExpense.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Migrations\\20240428140633_ChangeExpense.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240428140633_ChangeExpense.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Migrations\\20240428140633_ChangeExpense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T23:26:47.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Travel.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\Travel.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Models\\Travel.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\Travel.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Models\\Travel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:17:41.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\User.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:17:52.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240427214124_InitiateAnotherTables.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240427214124_InitiateAnotherTables.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Migrations\\20240427214124_InitiateAnotherTables.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240427214124_InitiateAnotherTables.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Migrations\\20240427214124_InitiateAnotherTables.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T23:26:49.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240427200237_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240427200237_InitialCreate.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Migrations\\20240427200237_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Migrations\\20240427200237_InitialCreate.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Migrations\\20240427200237_InitialCreate.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:20:54.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MochileirosContext.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Data\\MochileirosContext.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Data\\MochileirosContext.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Data\\MochileirosContext.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Data\\MochileirosContext.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:13:57.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\Group.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Models\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:07:31.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\Expense.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Models\\Expense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:21:04.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:09:05.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TravelsController.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Controllers\\TravelsController.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Controllers\\TravelsController.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Controllers\\TravelsController.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Controllers\\TravelsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwH0AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:08:37.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Controllers\\GroupsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:20:52.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Viagem.cshtml",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Views\\Users\\Viagem.cshtml",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Views\\Users\\Viagem.cshtml",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Views\\Users\\Viagem.cshtml",
+              "RelativeToolTip": "src\\Mochileiros\\Views\\Users\\Viagem.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T23:29:47.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Views\\Travels\\Create.cshtml",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Views\\Travels\\Create.cshtml",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Views\\Travels\\Create.cshtml",
+              "RelativeToolTip": "src\\Mochileiros\\Views\\Travels\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T23:30:00.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Program.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Program.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:04:01.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Mochileiros\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "src\\Mochileiros\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:18:07.077Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

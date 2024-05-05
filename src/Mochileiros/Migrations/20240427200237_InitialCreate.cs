@@ -22,6 +22,7 @@ namespace Mochileiros.Migrations
                     StartDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     EndDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     GroupId = table.Column<int>(type: "INTEGER", nullable: false),
+                    UserId = table.Column<int>(type: "INTEGER", nullable: false),
                     Image = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
