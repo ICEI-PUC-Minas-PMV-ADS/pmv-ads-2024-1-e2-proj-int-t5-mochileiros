@@ -13,7 +13,7 @@
                 <div class="kanban__column-title">Dia @item.id</div>
                 <div class="kanban__items">
                 @foreach (var expense in @item.expenses){
-<div class="card  kanban__item" draggable="true"  id="@expense.Id" data-value="@expense.Value"  data-description="@expense.Name" data-type="@expense.Type" data-name="@expense.Name" style="width: 18rem; margin-top:48px">
+<div class="card  kanban__item" draggable="true"  id="@expense.Id" data-value="@expense.Value"  data-description="@expense.Description" data-type="@expense.Type" data-name="@expense.Name" style="width: 18rem; margin-top:48px">
     <div class="card-body">
         <h5 class="card-title">@expense.Name</h5>
         <h6 class="card-subtitle mb-2 text-muted">@expense.Description</h6>
