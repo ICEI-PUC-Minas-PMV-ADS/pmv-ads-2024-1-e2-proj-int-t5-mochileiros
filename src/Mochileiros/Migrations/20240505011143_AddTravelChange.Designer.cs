@@ -11,8 +11,8 @@ using Mochileiros.Data;
 namespace Mochileiros.Migrations
 {
     [DbContext(typeof(MochileirosContext))]
-    [Migration("20240503140520_M02-AlterTableTravel")]
-    partial class M02AlterTableTravel
+    [Migration("20240505011143_AddTravelChange")]
+    partial class AddTravelChange
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
