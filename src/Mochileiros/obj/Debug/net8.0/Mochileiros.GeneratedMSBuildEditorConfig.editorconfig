@@ -1,59 +1,131 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mochileiros
 build_property.RootNamespace = Mochileiros
-build_property.ProjectDir = /home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/
+build_property.ProjectDir = C:\Users\carto\Documents\GitHub\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\src\Mochileiros\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros
+build_property.MSBuildProjectDirectory = C:\Users\carto\Documents\GitHub\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\src\Mochileiros
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Expenses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Expenses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Expenses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Landing/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xhbmRpbmcvX0Zvb3Rlci5jc2h0bWw=
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Expenses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Landing/_Header.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xhbmRpbmcvX0hlYWRlci5jc2h0bWw=
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Groups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Landing/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xhbmRpbmcvX0xheW91dC5jc2h0bWw=
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Groups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Groups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Groups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Groups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-sqjpaf6lj3
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Landing/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExhbmRpbmdcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Landing/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExhbmRpbmdcX0hlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/Landing/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExhbmRpbmdcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/_ExpenseCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FeHBlbnNlQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Travels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Travels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Travels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Travels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Travels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Users/Viagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVmlhZ2VtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/carto/Documents/GitHub/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ajbtsht1bb

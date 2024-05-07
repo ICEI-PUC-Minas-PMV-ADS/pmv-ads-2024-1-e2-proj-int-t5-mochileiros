@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj": {}
+    "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj": {}
   },
   "projects": {
-    "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj": {
+    "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj",
+        "projectUniqueName": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj",
         "projectName": "Mochileiros",
-        "projectPath": "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj",
-        "packagesPath": "/home/jpmmsilva/.nuget/packages/",
-        "outputPath": "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/obj/",
+        "projectPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj",
+        "packagesPath": "C:\\Users\\carto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jpmmsilva/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\carto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +44,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/jpmmsilva/.dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

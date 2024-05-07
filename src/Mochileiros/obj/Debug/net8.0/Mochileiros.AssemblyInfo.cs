@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mochileiros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+164161515067753d550d15e7f36ac700bbad062c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99e098b86b0cfc4cf45c76bb314720badeafb722")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mochileiros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mochileiros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4EDEF92B-DC32-4EC6-86E6-B2F4ADD928FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mochileiros", "src\Mochileiros\Mochileiros.csproj", "{218B073B-AE10-44C5-B60A-E3BEF20F9416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{218B073B-AE10-44C5-B60A-E3BEF20F9416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218B073B-AE10-44C5-B60A-E3BEF20F9416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218B073B-AE10-44C5-B60A-E3BEF20F9416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218B073B-AE10-44C5-B60A-E3BEF20F9416}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{218B073B-AE10-44C5-B60A-E3BEF20F9416} = {4EDEF92B-DC32-4EC6-86E6-B2F4ADD928FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05030976-D3C0-4A14-8E54-DE604923FA4E}
+	EndGlobalSection
+EndGlobal
