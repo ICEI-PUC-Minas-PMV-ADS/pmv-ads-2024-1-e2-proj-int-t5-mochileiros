@@ -58,10 +58,6 @@ namespace Mochileiros.Data
         .HasForeignKey<Group>(g => g.TravelId); // Chave estrangeira para TravelId
 
 
-            modelBuilder.Entity<Group>()
-                .HasMany(g => g.Users) // Um Grupo pode ter vários usuários
-                .WithMany(u => u.Groups) // Um usuário pode pertencer a vários grupos
-                .UsingEntity(j => j.ToTable("GroupUsers")); // Tabela de junção para a relação muitos-para-muitos
 
         }
     }
