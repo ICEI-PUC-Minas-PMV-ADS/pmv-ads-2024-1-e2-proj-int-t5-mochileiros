@@ -10,6 +10,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |------|-----------------------------------------|----| ----|
 |RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | João e Mariana|
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml | Igor |
+|RF-003| A aplicação deve permitir xxxxxxxxxxxxxxx   | - | - |
 
 # Instruções de acesso
 
