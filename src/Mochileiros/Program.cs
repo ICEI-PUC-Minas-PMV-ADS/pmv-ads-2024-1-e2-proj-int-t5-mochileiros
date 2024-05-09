@@ -12,12 +12,12 @@ builder.Services.AddControllersWithViews();
 if (builder.Environment.IsDevelopment())
 {
     builder.Services.AddDbContext<MochileirosContext>(options =>
-        options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext")));
+        options.UseSqlite(builder.Configuration.GetConnectionString("MochileirosContext")));
 }
 else
 {
     builder.Services.AddDbContext<MochileirosContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMvcMovieContext")));
+        options.UseSqlServer(builder.Configuration.GetConnectionString("MochileirosContext")));
 }
 
 

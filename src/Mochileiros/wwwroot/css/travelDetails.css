@@ -1,6 +1,23 @@
 #travelDetails {
   overflow: hidden;
-  padding: 1rem 0;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+#travelDetails .travelInfo {
+  width: 30vw;
+  min-height: 90vh;
+}
+
+#travelDetails .travelInfo .card-info-travel {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+#travelDetails .travelInfo .grupo {
+  margin-top: 2rem;
 }
 #travelDetails .kanban {
   overflow-x: scroll;

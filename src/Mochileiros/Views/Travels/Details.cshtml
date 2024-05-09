@@ -1,19 +1,136 @@
 @model Mochileiros.Models.Travel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes da viagem" ;
+    Layout="~/Views/Shared/Landing/_Layout.cshtml";
+
+
 }
 
 <h1>@Html.DisplayFor(model => model.Destination)</h1>
     <div id="travelDetails">
+        <div class="travelInfo">
+
+    <div class="card">
+        <img class="card-img-top" style='heigth: 2rem' src="@Model.Image" alt="Imagem de @Model.Destination">
+        <div class="card-body">
+          <h2 class="card-title">@Model.Destination</h2>
+          <p class="card-info-travel">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
+  <path d="M6.445 11.688V6.354h-.633A13 13 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23"/>
+  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+</svg> Dia de começo: @Model.StartDate.ToString("dd/MM/yyyy")
+          </p>
+          <p class="card-info-travel">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
+  <path d="M6.445 11.688V6.354h-.633A13 13 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23"/>
+  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+</svg> Dia final: @Model.EndDate.ToString("dd/MM/yyyy")
+          </p>
+        
+          <div>
+                  <div class="grupo">
+
+          <h3 class="mb-4">Grupo</h3>
+           <ul class="list-unstyled d-flex flex-column gap-4">
+                    <li>
+                        <a href="#" class="nav-link d-flex align-items-center">
+                            <div class="me-4">
+                                <div class="position-relative d-inline-block text-white">
+                                    <img style='height:55px; width:55px;'  alt="Image Placeholder" src="https://images.pexels.com/photos/3108924/pexels-photo-3108924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="avatar rounded-circle">
+                                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block text-sm font-semibold">
+                                    Luciana
+                                </span>
+                                <span class="d-block text-xs text-muted font-regular">
+                                  luciana@gmail.com
+                                </span>
+                            </div>
+                            <div class="ms-auto">
+                              <button type="button" class="btn btn-danger">Excluir</button>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link d-flex align-items-center">
+                            <div class="me-4">
+                                <div class="position-relative d-inline-block text-white">
+                                    <img style='width:55px; height:55px;' alt="Image Placeholder" src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg" class="avatar rounded-circle">
+                                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block text-sm font-semibold">
+                                   Jorge
+                                </span>
+                                <span class="d-block text-xs text-muted font-regular">
+                                  jorge@gmail.com
+                                </span>
+                            </div>
+                            <div class="ms-auto">
+                              <button type="button" class="btn btn-danger">Excluir</button>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link d-flex align-items-center">
+                            <div class="me-4">
+                                <div class="position-relative d-inline-block text-white">
+                                    <img style='width:55px;' alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" class="avatar rounded-circle">
+                                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block text-sm font-semibold">
+                                    Marie Claire
+                                </span>
+                                <span class="d-block text-xs text-muted font-regular">
+                                  marie@gmail.com
+                                </span>
+                            </div>
+                            <div class="ms-auto">
+                              <button type="button" class="btn btn-danger">Excluir</button>
+                            </div>
+                        </a>
+                    </li>
+                    </ul>
+                  <button type="button" class="btn btn-primary mt-4 btn-lg w-100">Adicionar ao grupo</button>
+          </div>
+          </div>
+          <div class='mt-4'>
+
+
+<div class="card ">
+    <div class="card-body mb-">
+        <h3 class="card-title">Custos</h3>
+            <div>
+
+                <p class="mb-0">Preço total: R$ @ViewData["totalExpenses"]</p>
+                <p class="font-weight-bold">Preço por integrante do grupo: R$ 1000,00</p>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Compartilhar</a>
+                <a href="#" class="btn btn-secondary">Mais detalhes</a>
+            </div>
+    </div>
+</div>
+
+          </div>
+      </div>
+      </div>
+      </div>
+    
         <div class="kanban" >
 @foreach (var item in (dynamic)ViewData["daysArray"])
 {
             <div class="kanban__column" data-date="@item.date" data-travelid="@item.travelId">
-                <div class="kanban__column-title">Dia @item.id</div>
+                <div class="kanban__column-title">Dia @item.id - @item.date.ToString("dd/MM/yyyy")</div>
                 <div class="kanban__items">
                 @foreach (var expense in @item.expenses){
-<div class="card  kanban__item" draggable="true"  id="@expense.Id" data-value="@expense.Value"  data-description="@expense.Name" data-type="@expense.Type" data-name="@expense.Name" style="width: 18rem; margin-top:48px">
+<div class="card  kanban__item" draggable="true"  id="@expense.Id" data-value="@expense.Value"  data-description="@expense.Description" data-type="@expense.Type" data-name="@expense.Name" style="width: 18rem; margin-top:48px">
     <div class="card-body">
         <h5 class="card-title">@expense.Name</h5>
         <h6 class="card-subtitle mb-2 text-muted">@expense.Description</h6>
@@ -107,13 +224,10 @@ document.addEventListener("dragend", (e) => {
     formData.append("TravelID",Number(targetColumn.dataset.travelid));
     formData.append("Date",  new Date(targetColumn.dataset.date).toISOString().substr(0, 10));
 
-
-console.log(formData)
-
       $.ajax({
         url: `/Expenses/Edit/${data}`,
         method: 'POST',
-         processData: false, // Prevent jQuery from processing the data
+         processData: false, 
         contentType: false, 
         data: formData,
         success: function(response) {

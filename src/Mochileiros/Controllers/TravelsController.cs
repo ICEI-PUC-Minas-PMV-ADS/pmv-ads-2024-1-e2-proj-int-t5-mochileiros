@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -26,60 +27,86 @@ namespace Mochileiros.Controllers
         }
 
         // GET: Travels/Details/5
-        public async Task<IActionResult> Details(int? id)
+public async Task<IActionResult> Details(int? id)
+{
+    if (id == null)
+    {
+        return NotFound();
+    }
+
+    var travel = await GetTravelById(id);
+    if (travel == null)
+    {
+        return NotFound();
+    }
+
+    var totalExpenses = await CalculateTotalExpenses(travel);
+    var daysArray = await GenerateDaysArray(travel);
+
+    ViewData["daysArray"] = daysArray;
+    ViewData["totalExpenses"] = totalExpenses;
+
+    return View(travel);
+}
+
+private async Task<Travel> GetTravelById(int? id)
+{
+    return await _context.Travel.FirstOrDefaultAsync(m => m.Id == id);
+}
+
+private async Task<decimal> CalculateTotalExpenses(Travel travel)
+{
+    var daysApart = (int)(travel.EndDate - travel.StartDate).TotalDays;
+    decimal totalExpenses = 0.0m;
+
+    for (int i = 0; i <= daysApart; i++)
+    {
+        var currentDay = travel.StartDate.AddDays(i);
+
+        var expensesForDay = await _context.Expense
+            .Where(e => e.TravelID == travel.Id && e.Date.Date == currentDay.Date)
+            .ToListAsync();
+
+        totalExpenses += expensesForDay.Sum(e => e.Value);
+    }
+
+    return totalExpenses;
+}
+
+private async Task<List<object>> GenerateDaysArray(Travel travel)
+{
+    var daysApart = (int)(travel.EndDate - travel.StartDate).TotalDays;
+    var daysArray = new List<object>();
+
+    for (int i = 0; i <= daysApart; i++)
+    {
+        var currentDay = travel.StartDate.AddDays(i);
+
+        var expensesForDay = await _context.Expense
+            .Where(e => e.TravelID == travel.Id && e.Date.Date == currentDay.Date)
+            .ToListAsync();
+
+        var dayObject = new
         {
-            if (id == null)
+            id = i + 1,
+            travelId = travel.Id,
+            date = currentDay,
+            expenses = expensesForDay.Select(e => new
             {
-                return NotFound();
-            }
+                e.Id,
+                e.Description,
+                e.Value,
+                e.Type,
+                e.Name,
+                e.Date
+            })
+        };
 
-            var travel = await _context.Travel
-                .FirstOrDefaultAsync(m => m.Id == id);
+        daysArray.Add(dayObject);
+    }
 
-            if (travel == null)
-            {
-                return NotFound();
-            }
-
-            var days = travel.EndDate - travel.StartDate;
-            int daysApart = (int)days.TotalDays;
-
-
-
-            var daysArray = new List<object>();
-
-            for (int i = 0; i <= daysApart; i++)
-            {
-                var currentDay = travel.StartDate.AddDays(i);
-
-                var expensesForDay = await _context.Expense
-                    .Where(e => e.TravelID == travel.Id && e.Date.Date == currentDay.Date)
-                    .ToListAsync();
-
-                var dayObject = new
-                {
-                    id = i + 1,
-                    travelId = travel.Id,
-                    date = currentDay,
-                    expenses = expensesForDay.Select(e => new
-                    {
-                        e.Id,
-                        e.Description,
-                        e.Value,
-                        e.Type,
-                        e.Name,
-                        e.Date
-                    })
-                };
-
-                daysArray.Add(dayObject);
-            }
-
-
-            ViewData["daysArray"] = daysArray;
-            return View(travel);
-        }
-
+    return daysArray;
+}
         // GET: Travels/Create
         public IActionResult Create()
         {
