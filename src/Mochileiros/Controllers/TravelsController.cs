@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -144,6 +145,9 @@ private async Task<List<object>> GenerateDaysArray(Travel travel)
             }
             return View(travel);
         }
+
+
+    
 
         // POST: Travels/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
