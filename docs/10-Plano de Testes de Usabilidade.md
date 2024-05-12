@@ -45,12 +45,12 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 ## Tarefa 7
 | **Tarefa 7** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-| relatorio de gastoso | Criação do planejamento  de gastos para a viagem, é  Adicionar gastos não planejado com posibilidade é repartir para mebros do  grupo | Facilidade na criação, clareza das etapas necessárias da criaçao, é divisão igualitaria entre os membros |
+| relatorio de gastos | Criação do planejamento  de gastos para a viagem, é  Adicionar gastos não planejado com posibilidade é repartir para mebros do  grupo | Facilidade na criação, clareza das etapas necessárias da criaçao, é divisão igualitaria entre os membros |
 
 ## Tarefa 8
 | **Tarefa 9** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-|Gerar relatorio de gastoso | Emiçao de gastoso em PDF | Facilidade em emitir, tempo necessário de 3 segundos para concluir a operação. |
+|Gerar relatorio de gastos | Emiçao de gastoso em PDF | Facilidade em emitir, tempo necessário de 3 segundos para concluir a operação. |
 
 ## Tarefa 9
 | **Tarefa 8** | **Critério de Êxito** | **O que será avaliado** |
