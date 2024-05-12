@@ -8,8 +8,8 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) | Responsável(is) |
 |------|-----------------------------------------|----| ----|
-|RF-001| A aplicação deve permitir o autorregistro e gerenciamento do cadastro de usuários | User.cs / UsersController.cs | Victor e Mariana | 
-|RF-002| A aplicação deve permitir que o usuário previamente cadastrado faça login | xxxxxx | Victor e Mariana | 
+|RF-001| A aplicação deve permitir o autorregistro e gerenciamento do cadastro de usuários | User.cs / UsersController.cs | Victor e Mariana e Igor | 
+|RF-002| A aplicação deve permitir que o usuário previamente cadastrado faça login | xxxxxx | Victor e Mariana e Igor| 
 |RF-003| A aplicação deve permitir que o usuário gerencie viagens  | index.cshtml/ create.cshtml/ edit.cshtml/ delete.cshtml/ travel.cs/ TravelsController.cs | Luiz  | 
 |RF-004| A aplicação deve permitir que o usuário vincule outros participantes a uma viagem criando um "grupo de viagem". Cada grupo de viagem poderá ter um ou mais participantes. Para cada participante, deve-se informar e-mail  | xxxxxx  | xxxxx  | 
 |RF-005| 	A aplicação deve permitir que sejam registradas despesas a qualuqer tempo, mesmo que após a fase de planejamento.| create.cshtml  | João | 
