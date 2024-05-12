@@ -4,6 +4,10 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+Link do Figma:
+
+https://www.figma.com/file/VNFKGcFYHQCAD5zwaqpeJn/Untitled?type=design&node-id=0%3A1&mode=design&t=mnMkyqhZKn7xD2nM-1
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
