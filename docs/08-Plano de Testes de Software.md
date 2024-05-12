@@ -27,7 +27,7 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br>  - Clicar no botão "Criar  despesa" <br> - Preencher o fomulario de despesa <br> - Clicar no botão "Criar" |
 |Critério de Êxito | -  despesa criado com sucesso |
 |  	|  	|
-| Caso de Teste 	| CT-04 – Editar desoesa	|
+| Caso de Teste 	| CT-04 – Editar despesa	|
 |Requisito Associado | RF-001	- A aplicação deve possuir opção despesa criados, verificar despesa criados é editalos. |
 | Objetivo do Teste 	| Verificar se o usuário consegue  Editar despesa |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar no botão despesa <br> -  Clicar no botão editar despesa <br> - modificar qualquer campo do formulario |
@@ -63,7 +63,7 @@ Por exemplo:
 | Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> |Clicar no botão meus grupos de viagem <br> Clicar no botão dividir gastos
 |Critério de Êxito | Emição do relatorio de gastos dividido entre os menbros do grupo | 
 |  	|  	|
-| Caso de Teste 	| CT-09 – opções de hospedagem |
+| Caso de Teste 	| CT-10 – opções de hospedagem |
 |Requisito Associado | RF-007	- A aplicação deve sugerir opções de hospedagem |
 | Objetivo do Teste 	| mostrar sugestão para hospedagem|
 | Passos 	|  Acessar o navegador <br> - Informar o endereço do site https://mochileiros.com/src/index.html <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login"<br> - Clicar no botão minhas viagens <br> - selecionar a aba de sugestão 
