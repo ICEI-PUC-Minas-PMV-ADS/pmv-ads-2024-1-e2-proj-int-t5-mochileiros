@@ -8155,26 +8155,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carto\\.nuget\\packages\\": {}
+    "C:\\Users\\victor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj",
+      "projectUniqueName": "C:\\Users\\victor\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\Mochileiros.csproj",
       "projectName": "Mochileiros",
-      "projectPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj",
-      "packagesPath": "C:\\Users\\carto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\obj\\",
+      "projectPath": "C:\\Users\\victor\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\Mochileiros.csproj",
+      "packagesPath": "C:\\Users\\victor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victor\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\mochileiros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

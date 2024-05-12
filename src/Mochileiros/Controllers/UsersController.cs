@@ -40,5 +40,11 @@ namespace Mochileiros.Controllers
         {
             return View();
         }
+ public async Task<IActionResult> Newuser()
+        {
+            
+      
+            return View();
+        }
     }
 }
