@@ -8,9 +8,22 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) | Responsável(is) |
 |------|-----------------------------------------|----| ----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | João e Mariana|
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml | Igor |
-|RF-003| A aplicação deve permitir xxxxxxxxxxxxxxx   | - | - |
+|RF-001| A aplicação deve permitir o autorregistro e gerenciamento do cadastro de usuários | User.cs / UsersController.cs | Victor e Mariana | 
+|RF-002| A aplicação deve permitir que o usuário previamente cadastrado faça login | xxxxxx | Victor e Mariana | 
+|RF-003| A aplicação deve permitir que o usuário gerencie viagens  | index.cshtml/ create.cshtml/ edit.cshtml/ delete.cshtml/ travel.cs/ TravelsController.cs | Luiz  | 
+|RF-004| A aplicação deve permitir que o usuário vincule outros participantes a uma viagem criando um "grupo de viagem". Cada grupo de viagem poderá ter um ou mais participantes. Para cada participante, deve-se informar e-mail  | xxxxxx  | xxxxx  | 
+|RF-005| 	A aplicação deve permitir que sejam registradas despesas a qualuqer tempo, mesmo que após a fase de planejamento.| create.cshtml  | João | 
+|RF-006| A aplicação deve emitir um relatório do planejamento da viagem (os gastos programado da viagem)  | xxxxx | xxxxx  | 
+|RF-007| A aplicação deve permitir que o usuário gerenciar despesa de viagem. Uma despesa deverá estar vinculado, obrigatoriamente, a uma viagem. |details.cshtml/ edit.cshtml/ delete.cshtml/ expense.cs/ ExpensesController.cs  | João  | 
+|RF-008| A aplicação deve emitir um relatório do roteiros de viagem  | xxxxx |xxxxx  | 
+|RF-009| Criação de cadastro e login dentro da plataforma      | xxxxx | xxxxx  | 
+|RF-010| A aplicação deve permitir que o usuário crie grupos de viagem com outros usuários | xxxxx | xxxxx  | 
+|RF-011| Nos grupos de viagem a aplicação deve permitir compartilhar o itinerário da  viagem com  integrante do grupo    | xxxxx | xxxxx  | 
+|RF-012| Nos grupos de viagem a aplicação deve permitir fazer a divisão dos gastos entre os  integrante do grupo   | xxxxx | xxxxx  | 
+|RF-013| a aplicação deve permitir o controle dos  gasto na viagem planejado e não planejado   | xxxxx | xxxxx  | 
+|RF-014| a aplicação deve permitir o controle dos  gasto na viagem não planejado   | xxxxx | xxxxx | 
+|RF-015|  a aplicação deve permitir realizar planejamento de gastos da viagem (hospedagem, alimentação, passeio entre outros possíveis gasto na viagem) | xxxxxx |  xxxxx  | 
+|RF-016|  a aplicação deve sugerir opções de hospedagem para o planejamento| xxxxx | xxxx  | 
 
 # Instruções de acesso
 
