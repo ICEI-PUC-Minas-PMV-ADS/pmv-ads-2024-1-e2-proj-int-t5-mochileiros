@@ -9,7 +9,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-004 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil. |
 |Registro de evidência | www.teste.com.br/drive/ct-01 |
 
-| **Caso de Teste** 	| ** CT-03 – Criar despesa** 	|
+| **Caso de Teste** 	| CT-03 – Criar despesa	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve possuir opção de Criar despesa, após clicar nessa opção sera aberto um Formulário para crição de uma despesa |
 |Registro de evidência | www.teste.com.br/drive/ct-02 |
