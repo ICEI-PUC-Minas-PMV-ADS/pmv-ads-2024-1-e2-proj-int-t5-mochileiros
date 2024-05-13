@@ -12,12 +12,12 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| CT-02 – Criar despesa	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve possuir opção de Criar despesa, após clicar nessa opção sera aberto um Formulário para crição de uma despesa |
-|Registro de evidência |   |
+|Registro de evidência |  https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
 
 | **Caso de Teste** 	| CT-03 – Editar despesa	|
 |:---:	|:---:	|
 |	Requisito Associado 	|RF-001 - A aplicação deve possuir opção despesa criados, verificar despesa criados é editalos. |
-|Registro de evidência |  |
+|Registro de evidência | https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
 
 | **Caso de Teste** 	| CT-04 – relatório de gastos	|
 |:---:	|:---:	|
@@ -32,7 +32,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| ** CT-06 – Grupos de viagem ** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| ---- |
-|Registro de evidência | ---- |
+|Registro de evidência | https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
 
 | **Caso de Teste** 	| ** CT-07 – Copartilhar itinerário** 	|
 |:---:	|:---:	|
