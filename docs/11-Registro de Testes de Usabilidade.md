@@ -5,16 +5,16 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 
 - Escala de 03 pontos A escala de 03 pontos possui 03 possíveis escolhas de resposta, tornando de forma simples e muito compreensível o entendimento do feedback recebido, dentre elas as respostas são:
 
-01. Abaixo da expectativas (ou “não atende as expectativas”)
-02. Dentro das expectativas (ou “atende as expectativas”)
-03. Acima das expectativas (ou “excede as expectativas”)
+01. Abaixo da expectativas ou (“não atende as expectativas”)
+02. Dentro das expectativas ou (“atende as expectativas”)
+03. Acima das expectativas ou (“excede as expectativas”)
 
 
 | Caso de Teste    | CT-01 - Registrar-se na plataforma |
 |:---|:---|
 | Requisitos Associados                    | RF-01  Registro na plataforma |
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi Registrar-se na plataforma ?
-| **Critério de Êxito** | **O registro é finalizado com êxito, redirecionando o usuário para a página de login..** 
+| **Critério de Êxito** | **O registro é finalizado com êxito, redirecionando o usuário para a página de login.** 
 |<li> Usuário |<li> Escala |
 | Usuário 01                     |  Escala 01  |
 | Usuário 02                     |  Escala 01  |
