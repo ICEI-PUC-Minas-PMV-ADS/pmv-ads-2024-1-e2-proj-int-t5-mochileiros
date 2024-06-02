@@ -1,0 +1,46 @@
+﻿@model Mochileiros.Models.Travel
+
+
+@{
+    ViewData["Title"] = "Document";
+    Layout = "~/Views/Shared/Landing/_Layout.cshtml";
+}
+
+<h1>Document</h1>
+
+
+
+<div id="sHtml">
+    <h1>Relatório da viagem para @Model.Destination</h1>
+    <p class="mb-0">Preço total: R$ @ViewData["totalExpenses"]</p>
+    <p class="font-weight-bold">Preço por integrante do grupo: R$ 1000,00</p>
+    @foreach (var item in (dynamic)ViewData["daysArray"])
+    {
+        <p> Dia @item.id - @item.date.ToString("dd/MM/yyyy")</p> 
+        @foreach (var expense in @item.expenses){
+
+            <p class="mb-0">@expense.Name: @expense.Description. Valor: @expense.Value. Tipo: @expense.Type</p>
+   
+        }
+    }   
+</div>
+<button id="printPDF" class="btn btn-primary">Print</button>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $('#printPDF').click( function () {
+        const content = document.querySelector("#sHtml")
+
+        const options = {
+            margin: [10, 10, 10, 10],
+            filename: "relatorio.pdf",
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+        };
+
+        html2pdf().set(options).from(content).save();
+    });
+</script>

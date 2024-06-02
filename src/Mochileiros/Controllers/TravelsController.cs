@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
 using Mochileiros.Models;
+using SelectPdf;
+
+
 
 namespace Mochileiros.Controllers
 {
@@ -50,7 +53,33 @@ public async Task<IActionResult> Details(int? id)
     return View(travel);
 }
 
-private async Task<Travel> GetTravelById(int? id)
+public async Task<IActionResult> Document(int? id)
+{
+    if (id == null)
+    {
+        return NotFound();
+    }
+
+    var travel = await GetTravelById(id);
+    if (travel == null)
+    {
+        return NotFound();
+    }
+
+    var totalExpenses = await CalculateTotalExpenses(travel);
+    var daysArray = await GenerateDaysArray(travel);
+
+    ViewData["daysArray"] = daysArray;
+    ViewData["totalExpenses"] = totalExpenses;
+
+    return View(travel);
+}
+
+
+
+
+
+    private async Task<Travel> GetTravelById(int? id)
 {
     return await _context.Travel.FirstOrDefaultAsync(m => m.Id == id);
 }
