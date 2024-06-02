@@ -4,36 +4,74 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<div class="modal-header">
+    <h2>Adicionar integrante</h2>
+    <button class="btn btn-sm pull-right btn-danger close" type="button" id="btnCloseModal" data-dismiss="modal">X</button>
+</div>
 
-<h4>Group</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
+<div class="modal-body">
+        <div class="col-md-4">
+            <form id='form' asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label class="control-label">Nome</label>
+                    <input id="participantName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Email</label>
+                    <input id="participantEmail" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">URL da Imagem</label>
+                    <input id="participantImageUrl" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <input type="button" value="Add Participant" class="btn btn-primary" onclick="addParticipant()" />
+                </div>
+                 <input type="hidden" asp-for="Participants" id="Participants" />
+                    <input type="hidden" asp-for="Id" />
+            <div class="form-group d-none">
                 <label asp-for="NumberOfUsers" class="control-label"></label>
                 <input asp-for="NumberOfUsers" class="form-control" />
                 <span asp-validation-for="NumberOfUsers" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="TravelId" class="control-label"></label>
-                <select asp-for="TravelId" class="form-control" asp-items="ViewBag.TravelId"></select>
-                <span asp-validation-for="TravelId" class="text-danger"></span>
+            <div class="form-group hidden d-none">
+                <label asp-for="TravelId" class="control-label hidden"></label>
+                <select asp-for="TravelId" class="form-control hidden" asp-items="ViewBag.TravelId"></select>
+                <span asp-validation-for="TravelId" class="text-danger hidden"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+            </form>
+    </div>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<script>
+    var participants = [];
+
+    function addParticipant() {
+        var name = $('#participantName').val();
+        var email = $('#participantEmail').val();
+        var imageUrl = $('#participantImageUrl').val();
+
+        var participant = {
+            name: name,
+            email: email,
+            imageUrl: imageUrl
+        };
+
+        participants.push(participant);
+        console.log(participant)
+        $('#Participants').val(JSON.stringify(participants));
+
+        $("#form").submit()
+    }
+
+    $('.close').click(function() {
+        $('#editExpenseModal').modal('hide');
+    });
+</script>

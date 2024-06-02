@@ -16,21 +16,6 @@ namespace Mochileiros.Migrations
             #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.4");
 
-            modelBuilder.Entity("GroupUser", b =>
-                {
-                    b.Property<int>("GroupsId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("UsersId")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("GroupsId", "UsersId");
-
-                    b.HasIndex("UsersId");
-
-                    b.ToTable("GroupUsers", (string)null);
-                });
-
             modelBuilder.Entity("Mochileiros.Models.Expense", b =>
                 {
                     b.Property<int>("Id")
@@ -73,6 +58,9 @@ namespace Mochileiros.Migrations
 
                     b.Property<int>("TravelId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<int>("Participants")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

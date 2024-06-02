@@ -13,24 +13,27 @@
     <div class="col-md-12">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group mb-4">
                 <label asp-for="Name" class="control-label">Nome</label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-4">
                 <label asp-for="Description" class="control-label">Descrição</label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-4">
                 <label asp-for="Value" class="control-label">Valor</label>
-                <input asp-for="Value" class="form-control" />
+                <input asp-for="Value" type='number'  step=".01" class="form-control" />
                 <span asp-validation-for="Value" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-4">
                 <label asp-for="Type" class="control-label">Tipo</label>
-                <input asp-for="Type" class="form-control" />
+                <select asp-for="Type" class="form-control">
+                    <option value="Não planejado">Não planejado</option>
+                    <option value="Planejado">Planejado</option>
+            </select>
                 <span asp-validation-for="Type" class="text-danger"></span>
             </div>
             <div id="date" class="form-group">

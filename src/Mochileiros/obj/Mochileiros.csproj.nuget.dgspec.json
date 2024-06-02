@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj": {}
+    "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj": {
+    "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj",
+        "projectUniqueName": "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj",
         "projectName": "Mochileiros",
-        "projectPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\Mochileiros.csproj",
-        "packagesPath": "C:\\Users\\carto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carto\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t5-mochileiros\\src\\Mochileiros\\obj\\",
+        "projectPath": "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/Mochileiros.csproj",
+        "packagesPath": "/home/jpmmsilva/.nuget/packages/",
+        "outputPath": "/home/jpmmsilva/code/studies/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/src/Mochileiros/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\carto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jpmmsilva/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,6 +66,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -89,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/jpmmsilva/.dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

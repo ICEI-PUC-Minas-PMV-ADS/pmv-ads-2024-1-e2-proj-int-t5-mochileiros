@@ -11,7 +11,6 @@ public class User
     public string Nickname { get; set; }
     public string? Image { get; set; }
     public string Password { get; set; }
-    public List<Group>? Groups { get; set; }
 
     public List<Travel>? Travels { get; set; }
 }

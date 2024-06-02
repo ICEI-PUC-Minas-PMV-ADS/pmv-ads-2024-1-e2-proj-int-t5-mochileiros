@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
+using Newtonsoft.Json.Linq;
 using Mochileiros.Models;
+using Newtonsoft.Json; 
 
 namespace Mochileiros.Controllers
 {
@@ -40,11 +42,15 @@ public async Task<IActionResult> Details(int? id)
         return NotFound();
     }
 
+    travel.Group = await _context.Group.FindAsync(travel.GroupId); 
     var totalExpenses = await CalculateTotalExpenses(travel);
     var daysArray = await GenerateDaysArray(travel);
+    var expensesByParticipant = await CalculateExpensesByParticipant(totalExpenses,travel.Group.Participants );
 
     ViewData["daysArray"] = daysArray;
     ViewData["totalExpenses"] = totalExpenses;
+    ViewData["participants"] = travel.Group.Participants;
+    ViewData["expensesByParticipant"] = expensesByParticipant;
 
     return View(travel);
 }
@@ -71,6 +77,16 @@ private async Task<decimal> CalculateTotalExpenses(Travel travel)
     }
 
     return totalExpenses;
+}
+
+private async Task<decimal> CalculateExpensesByParticipant(decimal totalExpense, string participants){
+    var participantsArray = JArray.Parse(participants);
+
+    int numParticipants = participantsArray.Count;
+
+    decimal expensePerParticipant = numParticipants > 0 ? totalExpense / numParticipants : 0;
+
+    return expensePerParticipant;
 }
 
 private async Task<List<object>> GenerateDaysArray(Travel travel)
@@ -123,6 +139,29 @@ private async Task<List<object>> GenerateDaysArray(Travel travel)
             if (ModelState.IsValid)
             {
                 _context.Add(travel);
+                await _context.SaveChangesAsync();
+                int travelId = travel.Id;
+                var group = new Group();
+                var participant = new JObject();
+                participant["name"] = "Participant1Name";
+                participant["email"] = "participant1@example.com";
+                participant["imageUrl"] = "https://example.com/participant1image.jpg";
+
+        
+
+                var participantsArray = new JArray();
+                participantsArray.Add(participant);
+
+                 group.Participants = participantsArray.ToString();
+                 group.Travel = travel;
+                 group.TravelId = travelId;
+                
+
+                _context.Add(group);
+                await _context.SaveChangesAsync();
+
+                travel.Group = group;
+                travel.GroupId = group.Id;
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

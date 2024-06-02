@@ -80,30 +80,6 @@ namespace Mochileiros.Migrations
                     table.PrimaryKey("PK_User", x => x.Id);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "GroupUsers",
-                columns: table => new
-                {
-                    GroupsId = table.Column<int>(type: "INTEGER", nullable: false),
-                    UsersId = table.Column<int>(type: "INTEGER", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_GroupUsers", x => new { x.GroupsId, x.UsersId });
-                    table.ForeignKey(
-                        name: "FK_GroupUsers_Group_GroupsId",
-                        column: x => x.GroupsId,
-                        principalTable: "Group",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_GroupUsers_User_UsersId",
-                        column: x => x.UsersId,
-                        principalTable: "User",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Expense_TravelID",
                 table: "Expense",
@@ -114,11 +90,6 @@ namespace Mochileiros.Migrations
                 table: "Group",
                 column: "TravelId",
                 unique: true);
-
-            migrationBuilder.CreateIndex(
-                name: "IX_GroupUsers_UsersId",
-                table: "GroupUsers",
-                column: "UsersId");
         }
 
         /// <inheritdoc />
@@ -126,9 +97,6 @@ namespace Mochileiros.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Expense");
-
-            migrationBuilder.DropTable(
-                name: "GroupUsers");
 
             migrationBuilder.DropTable(
                 name: "Group");

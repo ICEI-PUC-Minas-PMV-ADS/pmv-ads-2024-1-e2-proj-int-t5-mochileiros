@@ -1,10 +1,11 @@
+@using Newtonsoft.Json; 
+@using Newtonsoft.Json.Linq
+
 @model Mochileiros.Models.Travel
 
 @{
     ViewData["Title"] = "Detalhes da viagem" ;
     Layout="~/Views/Shared/Landing/_Layout.cshtml";
-
-
 }
 
 <h1>@Html.DisplayFor(model => model.Destination)</h1>
@@ -31,73 +32,49 @@
           <div>
                   <div class="grupo">
 
+    
           <h3 class="mb-4">Grupo</h3>
-           <ul class="list-unstyled d-flex flex-column gap-4">
-                    <li>
-                        <a href="#" class="nav-link d-flex align-items-center">
-                            <div class="me-4">
-                                <div class="position-relative d-inline-block text-white">
-                                    <img style='height:55px; width:55px;'  alt="Image Placeholder" src="https://images.pexels.com/photos/3108924/pexels-photo-3108924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="avatar rounded-circle">
-                                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="d-block text-sm font-semibold">
-                                    Luciana
-                                </span>
-                                <span class="d-block text-xs text-muted font-regular">
-                                  luciana@gmail.com
-                                </span>
-                            </div>
-                            <div class="ms-auto">
-                              <button type="button" class="btn btn-danger">Excluir</button>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link d-flex align-items-center">
-                            <div class="me-4">
-                                <div class="position-relative d-inline-block text-white">
-                                    <img style='width:55px; height:55px;' alt="Image Placeholder" src="https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg" class="avatar rounded-circle">
-                                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="d-block text-sm font-semibold">
-                                   Jorge
-                                </span>
-                                <span class="d-block text-xs text-muted font-regular">
-                                  jorge@gmail.com
-                                </span>
-                            </div>
-                            <div class="ms-auto">
-                              <button type="button" class="btn btn-danger">Excluir</button>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link d-flex align-items-center">
-                            <div class="me-4">
-                                <div class="position-relative d-inline-block text-white">
-                                    <img style='width:55px;' alt="Image Placeholder" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80" class="avatar rounded-circle">
-                                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="d-block text-sm font-semibold">
-                                    Marie Claire
-                                </span>
-                                <span class="d-block text-xs text-muted font-regular">
-                                  marie@gmail.com
-                                </span>
-                            </div>
-                            <div class="ms-auto">
-                              <button type="button" class="btn btn-danger">Excluir</button>
-                            </div>
-                        </a>
-                    </li>
-                    </ul>
-                  <button type="button" class="btn btn-primary mt-4 btn-lg w-100">Adicionar ao grupo</button>
+          @if (ViewData["participants"] != null)
+{
+        var participantsJson = ViewData["participants"].ToString();
+var participantsArray = JsonConvert.DeserializeObject<JArray>(participantsJson);
+
+
+
+    <ul class="list-unstyled d-flex flex-column gap-4">
+  @foreach (var participant in participantsArray)
+{
+    var participantObject = (JObject)participant;
+    <li>
+        <a href="#" class="nav-link d-flex align-items-center">
+            <div class="me-4">
+                <div class="position-relative d-inline-block text-white">
+                    <img style='height:55px; width:55px;' alt="Image Placeholder" src="@participantObject["imageUrl"]" class="avatar rounded-circle">
+                    <span class="position-absolute bottom-2 end-2 transform translate-x-1/2 translate-y-1/2 border-2 border-solid border-current w-3 h-3 bg-success rounded-circle"></span>
+                </div>
+            </div>
+            <div>
+                <span class="d-block text-sm font-semibold">
+                    @participantObject["name"]
+                </span>
+                <span class="d-block text-xs text-muted font-regular">
+                    @participantObject["email"]
+                </span>
+            </div>
+            <div class="ms-auto">
+                <button type="button" class="btn btn-danger">Excluir</button>
+            </div>
+        </a>
+    </li>
+}
+ 
+    </ul>
+}
+else
+{
+    <p>Sem participantes.</p>
+}
+                  <button data-target="#editExpenseModal" data-toggle="modal" onclick="openGropEditModal('@Model.Group.Id')" type="button" class="btn btn-primary mt-4 btn-lg w-100">Adicionar ao grupo</button>
           </div>
           </div>
           <div class='mt-4'>
@@ -109,7 +86,7 @@
             <div>
 
                 <p class="mb-0">Preço total: R$ @ViewData["totalExpenses"]</p>
-                <p class="font-weight-bold">Preço por integrante do grupo: R$ 1000,00</p>
+                <p class="font-weight-bold">Preço por integrante do grupo: R$ @ViewData["expensesByParticipant"]</p>
             </div>
             <div>
                 <a href="#" class="btn btn-primary">Compartilhar</a>
@@ -159,6 +136,13 @@
 </div>
 
 <script>
+  function openGropEditModal(groupId) {
+
+    $.get('/Groups/Edit/' + groupId, function(data) {
+        $('#editExpenseModal .modal-content').html(data);
+        $('#editExpenseModal').modal('show');
+    });
+}
   function openEditModal(expenseId) {
     $.get('/Expenses/Edit/' + expenseId, function(data) {
         $('#editExpenseModal .modal-content').html(data);

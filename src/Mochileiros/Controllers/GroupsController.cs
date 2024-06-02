@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
 using Mochileiros.Models;
+using System.Text.Json;
+using System.Collections.Generic;
 
 namespace Mochileiros.Controllers
 {
@@ -49,7 +51,7 @@ namespace Mochileiros.Controllers
         public IActionResult Create()
         {
             ViewData["TravelId"] = new SelectList(_context.Travel, "Id", "Id");
-            return View();
+            return PartialView();
         }
 
         // POST: Groups/Create
@@ -83,44 +85,95 @@ namespace Mochileiros.Controllers
                 return NotFound();
             }
             ViewData["TravelId"] = new SelectList(_context.Travel, "Id", "Id", @group.TravelId);
-            return View(@group);
+            return PartialView(@group);
         }
 
         // POST: Groups/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NumberOfUsers,TravelId")] Group @group)
+[ValidateAntiForgeryToken]
+public async Task<IActionResult> Edit(int id, [Bind("Id,NumberOfUsers,TravelId,Participants")] Group @group, string participantsJson)
+{
+    if (id != @group.Id)
+    {
+        return NotFound();
+    }
+
+    var travel = await _context.Travel.FindAsync(@group.TravelId);
+    if (travel == null)
+    {
+        ModelState.AddModelError("TravelId", "Invalid travel ID.");
+    }
+    else
+    {
+        @group.Travel = travel;
+    }
+
+    JsonDocument existingParticipantsDoc = null;
+    JsonDocument newParticipantsDoc = null;
+
+    try
+    {
+        if (!string.IsNullOrEmpty(@group.Participants))
         {
-            if (id != @group.Id)
+            existingParticipantsDoc = JsonDocument.Parse(@group.Participants);
+        }
+
+        if (!string.IsNullOrEmpty(participantsJson))
+        {
+            newParticipantsDoc = JsonDocument.Parse(participantsJson);
+        }
+    }
+    catch (JsonException ex)
+    {
+        ModelState.AddModelError("Participants", "Invalid JSON format for participants.");
+    }
+
+    if (ModelState.IsValid)
+    {
+        var mergedParticipants = new List<JsonElement>();
+
+        if (existingParticipantsDoc != null)
+        {
+            foreach (var element in existingParticipantsDoc.RootElement.EnumerateArray())
+            {
+                mergedParticipants.Add(element);
+            }
+        }
+
+        if (newParticipantsDoc != null)
+        {
+            foreach (var element in newParticipantsDoc.RootElement.EnumerateArray())
+            {
+                mergedParticipants.Add(element);
+            }
+        }
+
+        @group.Participants = JsonSerializer.Serialize(mergedParticipants);
+
+        try
+        {
+            _context.Update(@group);
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!GroupExists(@group.Id))
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
+            else
             {
-                try
-                {
-                    _context.Update(@group);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!GroupExists(@group.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                throw;
             }
-            ViewData["TravelId"] = new SelectList(_context.Travel, "Id", "Id", @group.TravelId);
-            return View(@group);
         }
+
+        return RedirectToAction("Details", "Travels", new { id = @group.TravelId });
+    }
+
+    return View(@group);
+}
 
         // GET: Groups/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -161,4 +214,9 @@ namespace Mochileiros.Controllers
             return _context.Group.Any(e => e.Id == id);
         }
     }
+
+    private bool GroupExists(int id)
+{
+    return _context.Groups.Any(e => e.Id == id);
+}   
 }
