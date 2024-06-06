@@ -11617,3 +11617,17 @@ footer a:focus {
   z-index: 100;
 }
 
+.travlesMainIndex{
+   background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10%;
+        z-index: -2;
+}
+@media (max-width: 768px) {
+  .travlesMainIndex{
+ justify-content: center;
+  }
+  
+}

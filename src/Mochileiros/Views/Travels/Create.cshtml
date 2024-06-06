@@ -1,52 +1,54 @@
 @model Mochileiros.Models.Travel
 
 @{
+    Layout = "~/Views/Shared/Landing/_Layout.cshtml";
     ViewData["Title"] = "Create";
 }
 
 
-<div class="modal-header">
+<div class="container" style="height: 100vh; margin-top:12vh;">
+<div class="modal-header mb-4">
     <h2>Criar Viagem</h2>
 </div>
-<div class="modal-body">
-    <div class="row">
+<div class="card "  style="max-width: 750px;">
+    <div class="p-4">
         <div class="col-md-12">
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label asp-for="TravelNumber" class="control-label">Número da Viagem</label>
                     <input asp-for="TravelNumber" class="form-control" />
                     <span asp-validation-for="TravelNumber" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label asp-for="Destination" class="control-label">Destino</label>
                     <input asp-for="Destination" class="form-control" />
                     <span asp-validation-for="Destination" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label asp-for="StartDate" class="control-label">Data de partida</label>
                     <input asp-for="StartDate" class="form-control" />
                     <span asp-validation-for="StartDate" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label asp-for="EndDate" class="control-label">Data de retorno</label>
                     <input asp-for="EndDate" class="form-control" />
                     <span asp-validation-for="EndDate" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4 d-none">
                     <label asp-for="GroupId" class="control-label">Id do Grupo</label>
-                    <input asp-for="GroupId" class="form-control" />
+                    <input asp-for="GroupId" value="0" class="form-control" />
                     <span asp-validation-for="GroupId" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4 d-none">
                     <input type="hidden" asp-for="UserId" value="1" class="form-control" />
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <label asp-for="Image" class="control-label">Link da Imagem</label>
                     <input asp-for="Image" class="form-control"/>
                     <span asp-validation-for="Image" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-4">
                     <input type="submit" value="Create" class="btn btn-primary" />
                 </div>
             </form>
@@ -55,7 +57,7 @@
         <div>
             <a asp-action="Index">Back to List</a>
         </div>
-
+    </div>
 
 @section Scripts {
     @{

@@ -8,23 +8,19 @@
 
 
 
+<div class="container" style="min-height:100vh; margin-top:12vh; ">
 
 <h1>Minhas Viagens</h1>
 <br/>
 <p>
     <a asp-action="Create" class="btn btn-primary">Criar Nova Viagem</a>
 </p>
-<div style="        background-color: white;
-        width: 99vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        z-index: -2;">
+<div class="travlesMainIndex" >
 
  @foreach (var item in Model)
  {
         <div class="card" style="align-self: flex-start; display: flexbox;
-            margin: 50px;
+            margin-top: 16px;
             width: 19rem;
             border-radius: 15px;
             transition: 200ms ease-in-out;
@@ -44,4 +40,11 @@
    </div>
    </div>
   }
+</div>
+
+
+
+
+
+
 </div>
