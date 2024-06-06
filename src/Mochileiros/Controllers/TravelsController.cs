@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
 using Mochileiros.Models;
-using SelectPdf;
 
 
 
