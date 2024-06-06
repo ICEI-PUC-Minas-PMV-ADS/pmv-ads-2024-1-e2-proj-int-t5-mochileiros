@@ -10,50 +10,19 @@
 </div>
 
 <div class="button-group">
-    
-   <a href="login"> <button>Login</button></a>
+   <a href="Newuser"><button>Criar conta</button></a>
+   
 </div>
 
 <div class="container">
-    <h2>login</h2>
-   <form id="formRegister">
-	<h1><img src="../assets/logo.svg" hre /></h1>
+   <a href="Newuser"><h2>Criar Conta</h2></a> 
+    <form id="formLogin">
+		<h1>Faça Login</h1>
+		<input type="text" name="email" placeholder="Email" required /><br />
+		<input type="password" name="password" placeholder="Senha" required /><br />
+		<button type="submit">Entrar</button>
 
-	<div class="input-single">
-		<label for="nome">Nome:</label>
-
-		<input type="text" id="nome" name="name" required />
-	</div>
-	<br />
-
-	<div class="input-single">
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" required />
-	</div>
-	<br />
-
-	<div class="input-single">
-		<label for="senha">Senha:</label>
-		<input type="password" id="senha" name="password" required />
-	</div>
-	<br />
-
-	<div class="input-single">
-		<label for="confirmarSenha">Confirmar senha:</label>
-		<input
-			type="password"
-			id="confirmarSenha"
-			name="passwordConfirmation"
-			required
-		/>
-	</div>
-	<br />
-
-	<button type="submit">Criar Conta</button>
-	<br />
-
-	<a href="/login" onclick="route()" id="conta">Já tenho Login</a>
-</form>
+	</form>
 </div>
 
 <div class="footer-bar">
@@ -95,5 +64,3 @@
         }
     }
 </script>
-
-
