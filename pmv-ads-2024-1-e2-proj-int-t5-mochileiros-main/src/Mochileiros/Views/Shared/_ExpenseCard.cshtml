@@ -1,0 +1,12 @@
+@model Mochileiros.Models.Expense
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Description</h6>
+        <p class="card-text">Valor: @Model.Value</p>
+        <p class="card-text">Tipo: @Model.Type</p>
+        <button class="btn btn-sm btn-primary" data-toggle="modal" onclick="RenderActions('/MyEntities/Edit/' + @Model.Id)" data-target="#modalCreate">Editar</button> | 
+        <button class="btn btn-sm btn-danger" data-toggle="modal" onclick="RenderActions('/MyEntities/Delete/' + @Model.Id)" data-target="#modalCreate">Excluir</button>
+    </div>
+</div>

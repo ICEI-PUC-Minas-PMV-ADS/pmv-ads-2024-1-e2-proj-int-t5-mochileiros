@@ -1,0 +1,47 @@
+@model IEnumerable<Mochileiros.Models.Travel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Landing/_Layout.cshtml";
+}
+
+
+
+
+
+<h1>Minhas Viagens</h1>
+<br/>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Criar Nova Viagem</a>
+</p>
+<div style="        background-color: white;
+        width: 99vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: -2;">
+
+ @foreach (var item in Model)
+ {
+        <div class="card" style="align-self: flex-start; display: flexbox;
+            margin: 50px;
+            width: 19rem;
+            border-radius: 15px;
+            transition: 200ms ease-in-out;
+            z-index: 0;">
+            <img class="card-img-top" style="                
+                margin: auto;
+                display: inline;
+                height: 200px;
+                width: auto;
+                max-width: 100%;" src="@Html.DisplayFor(modelItem => item.Image)" alt="@Html.DisplayFor(modelItem => item.Destination)" />
+    <div class="card-body">
+        <h4>@Html.DisplayFor(modelItem => item.Destination)</h4>
+        <p class="card-subtitle mb-2 text-muted">@Html.DisplayFor(modelItem => item.StartDate) a @Html.DisplayFor(modelItem => item.EndDate)</p>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Deletar</a>
+   </div>
+   </div>
+  }
+</div>

@@ -1,0 +1,67 @@
+@model Mochileiros.Models.Travel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="modal-header">
+    <h2>Editar Viagem</h2>
+  
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="TravelNumber" class="control-label">Número da Viagem</label>
+                    <input asp-for="TravelNumber" class="form-control" />
+                    <span asp-validation-for="TravelNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Destination" class="control-label">Destino</label>
+                    <input asp-for="Destination" class="form-control" />
+                    <span asp-validation-for="Destination" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StartDate" class="control-label">Data de partida</label>
+                    <input asp-for="StartDate" class="form-control" />
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EndDate" class="control-label">Data de retorno</label>
+                    <input asp-for="EndDate" class="form-control" />
+                    <span asp-validation-for="EndDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="GroupId" class="control-label">Id do Grupo</label>
+                    <input asp-for="GroupId" class="form-control" />
+                    <span asp-validation-for="GroupId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" asp-for="UserId" value="ViewBag.UserId" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image" class="control-label">Imagem</label>
+                    <input type="file" id="imagem" name="imagem" accept="image/*"><br><br>
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
