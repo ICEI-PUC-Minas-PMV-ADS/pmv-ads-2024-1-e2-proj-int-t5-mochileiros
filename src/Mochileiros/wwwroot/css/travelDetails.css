@@ -1,8 +1,17 @@
+#travelContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 13vh;
+
+  
+}
 #travelDetails {
   overflow: hidden;
   padding: 2rem;
   display: flex;
   gap: 2rem;
+
 }
 
 #travelDetails .travelInfo {
@@ -16,9 +25,7 @@
   gap: 0.5rem;
   align-items: center;
 }
-#travelDetails .travelInfo .grupo {
-  margin-top: 2rem;
-}
+
 #travelDetails .kanban {
   overflow-x: scroll;
   width: 65vw;
@@ -48,6 +55,8 @@
 
 #travelDetails .kanban__item {
   cursor: move;
+ width: 18rem;
+ margin-top:48px;
 }
 
 #travelDetails .kanban__column:not(:last-child) {
@@ -122,4 +131,45 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
+}
+
+@media (max-width: 768px) {
+  #travelDetails {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+#travelDetails .kanban__item {
+    width: auto;
+  }
+  #travelDetails .travelInfo {
+    width: 100vw;
+    min-height: fit-content;
+  }
+  #travelDetails .kanban {
+    width: 100vw;
+    min-height: max-content;
+  }
+#travelDetails .kanban__column {
+  min-width: 11rem;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  border-radius: 24px;
+}
+
+#travelDetails .kanban__column-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  user-select: none;
+
+  position: absolute;
+  top: 24px;
+}
+
+
+
+
 }
