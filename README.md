@@ -14,8 +14,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Luiz Fernando de Almeida Dias
 * João Pedro Menezes Matias da 
 * Mariana Aparecida Rodrigues dos Santos
-* Luciano Carvalho Couto Ferreira
-* Victor Gabriel Cardoso Pio
 
 ## Orientador
 
