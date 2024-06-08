@@ -14,14 +14,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Luiz Fernando de Almeida Dias
 * João Pedro Menezes Matias da 
 * Mariana Aparecida Rodrigues dos Santos
-* Luciano Carvalho Couto Ferreira
-* Victor Gabriel Cardoso Pio
 
 ## Orientador
 
 * Luciana de Nardin
 
 ## Instruções de utilização
+
+https://mochileiros.azurewebsites.net/
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
