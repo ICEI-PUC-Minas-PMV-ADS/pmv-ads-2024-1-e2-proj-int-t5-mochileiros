@@ -9,12 +9,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
 using Mochileiros.Models;
-
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace Mochileiros.Controllers
 {
-    public class TravelsController : Controller
+[Authorize]    
+public class TravelsController : Controller
     {
         private readonly MochileirosContext _context;
 
