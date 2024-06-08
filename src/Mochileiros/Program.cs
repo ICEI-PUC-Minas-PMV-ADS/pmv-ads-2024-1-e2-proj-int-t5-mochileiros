@@ -1,23 +1,31 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<MochileirosContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("MochileirosContext") ?? throw new InvalidOperationException("Connection string 'MochileirosContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Users/Login"; 
+        options.AccessDeniedPath = "/"; 
+    });
 
 if (builder.Environment.IsDevelopment())
 {
     builder.Services.AddDbContext<MochileirosContext>(options =>
-        options.UseSqlite(builder.Configuration.GetConnectionString("MochileirosContext")));
+        options.UseSqlite(builder.Configuration.GetConnectionString("MochileirosContextLocal")));
 }
 else
 {
     builder.Services.AddDbContext<MochileirosContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("MochileirosContext")));
+        options.UseSqlite(builder.Configuration.GetConnectionString("MochileirosContext")));
 }
 
 
@@ -42,6 +50,14 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+if (!app.Environment.IsDevelopment())
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<MochileirosContext>();
+        dbContext.Database.Migrate();
+    }
+}
 
 
 app.Run();

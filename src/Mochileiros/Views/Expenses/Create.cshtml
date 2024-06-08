@@ -56,20 +56,22 @@ $(document).ready(function() {
     $('.close').click(function() {
         $('#editExpenseModal').modal('hide');
     });
+
     const date = sessionStorage.getItem("date");
     const travelID = sessionStorage.getItem("travelId");
 
+    // Convert date from "dd/MM/YYYY" to "YYYY-MM-DD"
+    const convertedDate = new Date(date.replace(/(\d{2})\/(\d{2})\/(\d{4})/, '$3-$2-$1')).toISOString().substr(0, 10);
 
     $('#travelId').empty().html(`
-        
-                 <select id="TravelID" name="TravelID" value="${travelID}" class="form-control d-none" ">
-    <option>${travelID}</option>
-    </select>
-         
-   `
-    );
+        <select id="TravelID" name="TravelID" value="${travelID}" class="form-control d-none">
+            <option>${travelID}</option>
+        </select>
+    `);
 
-
-    $('#date').empty().html(`<input name="Date"  type='date' id="Date" value="${new Date(date).toISOString().substr(0, 10)}" class="form-control d-none" />`);
+    $('#date').empty().html(`
+        <input name="Date" type='date' id="Date" value="${convertedDate}" class="form-control d-none" />
+    `);
 });
+
 </script>

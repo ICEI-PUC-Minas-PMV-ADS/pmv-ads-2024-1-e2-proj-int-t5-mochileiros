@@ -29,6 +29,12 @@ namespace Mochileiros.Controllers
         {
               return View(await _context.User.ToListAsync());
         }
+        [AllowAnonymous]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Usuarios");
+        }
 
         [AllowAnonymous]
         public IActionResult AccessDenied()
@@ -46,8 +52,8 @@ namespace Mochileiros.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Login(User usuario)
         {
-            var dados = await _context.User
-                .FindAsync(usuario.Id);
+          var dados = await _context.User
+                .FirstOrDefaultAsync(u => u.Nickname == usuario.Nickname);
 
             if(dados == null)
             {
@@ -76,7 +82,7 @@ namespace Mochileiros.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                return Redirect("/");
+                return Redirect("/Travels/Index");
             }
             else
             {
@@ -86,15 +92,6 @@ namespace Mochileiros.Controllers
             return View();
         }
 
-        [AllowAnonymous]
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync();
-
-            return RedirectToAction("Login", "Users");
-        }
-
-        // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.User == null)
@@ -123,7 +120,7 @@ namespace Mochileiros.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Senha,Perfil")] User usuario)
+        public async Task<IActionResult> Create([Bind("Id,Name,Password,Email,Nickname")] User usuario)
         {
             if (ModelState.IsValid)
             {

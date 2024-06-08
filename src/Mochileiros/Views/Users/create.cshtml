@@ -17,25 +17,36 @@
 </div>
 
 <div class="container">
-   <form id="formRegister">
+   <form asp-action="Create" id="formRegister">
+	            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 	<div style="width: 100%; display: flex; justify-content:center;"><img style="width: 120px; heigth:auto;" src="/mochila.png"  /></div>
 
 	<div class="input-single">
 		<label for="nome">Nome:</label>
 
 		<input type="text" asp-for="Name" id="nome" name="name" required />
+		                <span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+	<br />
+	<div class="input-single">
+		<label for="nome">Username:</label>
+
+		<input type="text" asp-for="Nickname" id="nickname" name="nickname" required />
+		                <span asp-validation-for="Nickname" class="text-danger"></span>
 	</div>
 	<br />
 
 	<div class="input-single">
 		<label for="email">Email:</label>
 		<input asp-for="Email" type="email" id="email" name="email" required />
+		                <span asp-validation-for="Email" class="text-danger"></span>
 	</div>
 	<br />
 
 	<div class="input-single">
 		<label for="senha">Senha:</label>
 		<input asp-for="Password" type="password" id="senha" name="password" required />
+		                <span asp-validation-for="Password" class="text-danger"></span>
 	</div>
 	<br />
 
@@ -47,6 +58,7 @@
 			name="passwordConfirmation"
 			required
 		/>
+		<span asp-validation-for="Password" class="text-danger"></span>
 	</div>
 	<br />
 

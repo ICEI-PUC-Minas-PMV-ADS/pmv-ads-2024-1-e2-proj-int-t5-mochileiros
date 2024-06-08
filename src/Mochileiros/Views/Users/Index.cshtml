@@ -1,7 +1,7 @@
-﻿@model IEnumerable<Mochileiros.Models.Travel>
+﻿@model IEnumerable<Mochileiros.Models.User>
 
 @{
-    ViewData["Title"] = "Viagem";
+    ViewData["Title"] = "Usuarios";
 }
 
 <h1>Viagem</h1>
@@ -13,22 +13,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.TravelNumber)
+                @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Destination)
+                @Html.DisplayNameFor(model => model.Nickname)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.StartDate)
+                @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.EndDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.GroupId)
+                @Html.DisplayNameFor(model => model.Password)
             </th>
         </tr>
     </thead>
@@ -36,22 +30,16 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.TravelNumber)
+                @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Destination)
+                @Html.DisplayFor(modelItem => item.Nickname)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.StartDate)
+                @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.EndDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GroupId)
+                @Html.DisplayFor(modelItem => item.Password)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
