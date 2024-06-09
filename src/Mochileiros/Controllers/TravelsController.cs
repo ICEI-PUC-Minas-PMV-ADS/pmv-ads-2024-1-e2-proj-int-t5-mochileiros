@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Mochileiros.Data;
 using Mochileiros.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 
 namespace Mochileiros.Controllers
@@ -27,7 +28,20 @@ public class TravelsController : Controller
         // GET: Travels
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Travel.ToListAsync());
+            var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            if (userId == null)
+                return NotFound();
+            var usuario = await _context.User.FindAsync(userId);
+
+            if (usuario == null)
+                return NotFound();
+            var viagens = await _context.Travel
+                .Where(t => t.UserId == userId)
+                .OrderByDescending(t => t.StartDate)
+                .ToListAsync();
+
+
+            return View(viagens);
         }
 
         // GET: Travels/Details/5
@@ -151,6 +165,10 @@ for (int i = 0; i <= daysApart; i++)
         // GET: Travels/Create
         public IActionResult Create()
         {
+            var userId = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            // Passa o ID do usuário para a ViewBag
+            ViewBag.UserId = userId;
             return View();
         }
 
