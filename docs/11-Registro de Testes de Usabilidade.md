@@ -50,10 +50,10 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi Criar grupo de viagem?|
 | **Critério de Êxito** | **Adicionar mebros e visualizá-la na lista de membros** |
 |<li> Usuário |<li> Escala |
-| Usuário 01    (Viajantes Individuais)                 |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
-| Usuário 02    (Grupos e Famílias )                    |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
-| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
-| Usuário 04    (Viajantes Experientes)                 |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
+| Usuário 01    (Viajantes Individuais)                 |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo) |
+| Usuário 02    (Grupos e Famílias )                    |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo)|
+| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo) |
+| Usuário 04    (Viajantes Experientes)                 |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo) |
 
 | Caso de Teste    | CT-05 - Gerar relatorio de gastos |
 |:---|:---|
