@@ -16,11 +16,11 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi Registrar-se na plataforma ?|
 | **Critério de Êxito** | **O registro é finalizado com êxito, redirecionando o usuário para a página de login.** |
 |<li> Usuário |<li> Escala |
-| Usuário 01                     |  Escala 01  |
-| Usuário 02                     |  Escala 01  |
-| Usuário 03                     |  Escala 02  |
-| Usuário 04                     |  Escala 01  |
-| Usuário 05                     |  Escala 03  |
+| Usuário 01    (Viajantes Individuais)                 |  Escala 02 (Usuario não teve muito dificuldade na realizaçao do cadastro) |
+| Usuário 02    (Grupos e Famílias )                    |  Escala 01 (Usuarios sem  dificuldade para resgsitrar na plataforma, porem com  duvidas entre o Username é o nome|
+| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 01 (Usuarios com dificuldades em registrar-se na plataforma, duvidas entre o Username é o nome, qual E-mail é padrão de senha/o que tinha que colocar ) |
+| Usuário 04    (Viajantes Experientes)                 |  Escala 02 (Usuario não teve muito dificuldade na realizaçao do cadastro) |
+
 
 | Caso de Teste    | CT-02 - Realizar login utilizando as credenciais cadastradas|
 |:---|:---|
@@ -28,11 +28,10 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi Realizar login utilizando as credenciais cadastradas?|
 | **Critério de Êxito** | **Realizar o login com êxito e ser redirecionado para a página principal.** |
 |<li> Usuário |<li> Escala |
-| Usuário 01                     |  Escala 03  |
-| Usuário 02                     |  Escala 03  |
-| Usuário 03                     |  Escala 02  |
-| Usuário 04                     |  Escala 01  |
-| Usuário 05                     |  Escala 01  |
+| Usuário 01    (Viajantes Individuais)                 |  Escala 02 (Usuario não teve muito dificuldade no login) |
+| Usuário 02    (Grupos e Famílias )                    |  Escala 01 (Bastante Dificuldade Relacionado ao Username) |
+| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 02 (Duvida com o Username) |
+| Usuário 04    (Viajantes Experientes)                 |  Escala 03 (Usuario fez login de boa) |
 
 | Caso de Teste    | CT-03 - Adicionar uma viagem |
 |:---|:---|
@@ -40,11 +39,10 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi Incluir uma nova viagem e confirmar sua visualização de viagens na lista?|
 | **Critério de Êxito** | **Incluir com êxito uma nova viagem e confirmar sua visualização de viagens na lista.** |
 |<li> Usuário |<li> Escala |
-| Usuário 01                     |  Escala 03  |
-| Usuário 02                     |  Escala 03  |
-| Usuário 03                     |  Escala 02  |
-| Usuário 04                     |  Escala 01  |
-| Usuário 05                     |  Escala 01  |
+| Usuário 01    (Viajantes Individuais)                 |  Escala 02 (Criou a viagem sem Dificuldade ) |
+| Usuário 02    (Grupos e Famílias )                    |  Escala 01 (Criou a viagem com duvida no que seria o  "Número da Viagem" é "Link da Imagem") |
+| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 02 (Criou a viagem com duvida no que seria o  "Número da Viagem" é "Link da Imagem") |
+| Usuário 04    (Viajantes Experientes)                 |  Escala 01 (Criou a viagem com duvida no  "Link da Imagem") |
 
 | Caso de Teste    | CT-04 - Criar grupo de viagem |
 |:---|:---|
@@ -52,11 +50,10 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi Criar grupo de viagem?|
 | **Critério de Êxito** | **Adicionar mebros e visualizá-la na lista de membros** |
 |<li> Usuário |<li> Escala |
-| Usuário 01                     |  Escala 03  |
-| Usuário 02                     |  Escala 03  |
-| Usuário 03                     |  Escala 02  |
-| Usuário 04                     |  Escala 01  |
-| Usuário 05                     |  Escala 01  |
+| Usuário 01    (Viajantes Individuais)                 |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
+| Usuário 02    (Grupos e Famílias )                    |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
+| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
+| Usuário 04    (Viajantes Experientes)                 |  Escala 01 (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para comclusão so Eixo) |
 
 | Caso de Teste    | CT-05 - Gerar relatorio de gastos |
 |:---|:---|
@@ -64,11 +61,10 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Em uma escala de 01 a 03, quão fácil e intuitivo foi gerar relatorio de gastos?|
 | **Critério de Êxito** | **Emissao de gastos em PDF** |
 |<li> Usuário |<li> Escala |
-| Usuário 01                     |  Escala 03  |
-| Usuário 02                     |  Escala 03  |
-| Usuário 03                     |  Escala 02  |
-| Usuário 04                     |  Escala 01  |
-| Usuário 05                     |  Escala 01  |
+| Usuário 01    (Viajantes Individuais)                 |  Escala 03 (Gerou o relatorio sem problema) |
+| Usuário 02    (Grupos e Famílias )                    |  Escala 03 (Gerou o relatorio sem problema) |
+| Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 03 (Gerou o relatorio sem problema) |
+| Usuário 04    (Viajantes Experientes)                 |  Escala 03 (Gerou o relatorio sem problema) |
 
 
 
