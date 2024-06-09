@@ -7,7 +7,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil/CT-02 – Efetuar login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil. |
-|Registro de evidência |  --|
+|Registro de evidência | (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp)|
 
 | **Caso de Teste** 	| CT-02 – Criar despesa	|
 |:---:	|:---:	|
@@ -21,33 +21,33 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| CT-04 – relatório de gastos	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-002\RF-008\RF-009\RF-010 - A aplicação deve possuir opção gerar relatorio de gastos |
-|Registro de evidência | --- |
+|	Requisito Associado 	| RF-002\RF-008\RF-009\RF-010\ - A aplicação deve possuir opção gerar relatorio de gastos |
+|Registro de evidência | (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp)|
 
 | **Caso de Teste** 	| ** CT-05 – roteiros.pdf** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| ---- |
-|Registro de evidência | ---- |
+|	Requisito Associado 	| RF-008 |
+|Registro de evidência | (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp) |
 
 | **Caso de Teste** 	| ** CT-06 – Grupos de viagem ** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| ---- |
+|	Requisito Associado 	| RF-010 |
 |Registro de evidência | https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
 
 | **Caso de Teste** 	| ** CT-07 – Copartilhar itinerário** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| ---- |
-|Registro de evidência | ---- |
+|	Requisito Associado 	| RF-011|
+|Registro de evidência | (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo)|
 
 | **Caso de Teste** 	| ** CT-08 – dividir gastos** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| ---- |
-|Registro de evidência | ---- |
+|	Requisito Associado 	| RF-012 |
+|Registro de evidência | (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo)|
 
 | **Caso de Teste** 	| ** CT-09 – opções de hospedagem** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| ---- |
-|Registro de evidência | ---- |
+|	Requisito Associado 	| RF-016 |
+|Registro de evidência | (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo)|
 
 
 
