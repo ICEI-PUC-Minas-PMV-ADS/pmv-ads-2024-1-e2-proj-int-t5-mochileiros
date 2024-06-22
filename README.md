@@ -13,7 +13,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Igor Fonseca Amorim
 * Luiz Fernando de Almeida Dias
 * João Pedro Menezes Matias da Silva
-* Victor Gabriel Cardoso Pio
 
 ## Orientador
 
