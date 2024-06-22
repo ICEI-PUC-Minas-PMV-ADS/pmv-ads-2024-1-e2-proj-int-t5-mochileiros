@@ -7,27 +7,31 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil/CT-02 – Efetuar login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil. |
-|Registro de evidência | (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp)|
+|Registro de evidência | Video: (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp) <br/> Imagem: ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/f15c7ddb-950d-4ae9-b785-6e1c53e79146)|
 
 | **Caso de Teste** 	| CT-02 – Criar despesa	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve possuir opção de Criar despesa, após clicar nessa opção sera aberto um Formulário para crição de uma despesa |
-|Registro de evidência |  https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
+|Registro de evidência | Video:  https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp <br/> Imagem: ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/674f2921-9754-44cf-a36d-fe548cab0ed0)
+ |
 
 | **Caso de Teste** 	| CT-03 – Editar despesa	|
 |:---:	|:---:	|
 |	Requisito Associado 	|RF-001 - A aplicação deve possuir opção despesa criados, verificar despesa criados é editalos. |
-|Registro de evidência | https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
+|Registro de evidência | Video: https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp <br/>  Imagem: ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/16557a5c-dbb3-4e19-a3cf-61cda034711f)
+ |
 
 | **Caso de Teste** 	| CT-04 – relatório de gastos	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002\RF-008\RF-009\RF-010\ - A aplicação deve possuir opção gerar relatorio de gastos |
-|Registro de evidência | (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp)|
+|Registro de evidência | Video: (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp) <br/> Imagem: ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/47b9f873-c0f9-405e-a62b-309e7d0143ac)
+|
 
 | **Caso de Teste** 	| ** CT-05 – roteiros.pdf** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 |
-|Registro de evidência | (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp) |
+|Registro de evidência |Video: (https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp) <br/>  Imagem: ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros/assets/36000474/3f134155-0585-4f19-8589-64119ad75a00)
+  |
 
 | **Caso de Teste** 	| ** CT-06 – Grupos de viagem ** 	|
 |:---:	|:---:	|
