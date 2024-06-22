@@ -66,5 +66,12 @@ Após os testes de usuários, foram feitas algumas perguntas relacionadas aos po
 | Usuário 03    (Viajantes de Orçamento Limitado)       |  Escala 03 (Gerou o relatorio sem problema) |
 | Usuário 04    (Viajantes Experientes)                 |  Escala 03 (Gerou o relatorio sem problema) |
 
+ **constatação final**  
+O teste de usabilidade revelou alguns problemas críticos no sistema. Primeiramente, no cadastro de usuário, se as senhas digitadas forem diferentes, o usuário não é cadastrado e também não recebe nenhuma notificação sobre o erro, o que pode gerar confusão e frustração. Ao criar uma viagem, a digitação do número da viagem mostrou-se problemática, levantando questões sobre a gestão de números de viagens iguais. Além disso, muitos requisitos funcionais esperados não foram desenvolvidos, como a capacidade de compartilhar itinerário, dividir gastos e recomendar hospedagens. Por outro lado, os relatórios do sistema foram avaliados positivamente, com relatórios diários de gastos por viagem e o custo total da viagem funcionando conforme esperado.
+
+
+
+
+
 
 
