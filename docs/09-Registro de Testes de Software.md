@@ -32,7 +32,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | **Caso de Teste** 	| ** CT-06 – Grupos de viagem ** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 |
-|Registro de evidência | https://drive.google.com/drive/folders/1AjfcVuoiy-TUZhWE8s2JQjvLaVvWLKNp |
+|Registro de evidência |  (Não foi Possível realizar essa função por diversos bugs é a falta de tempo para conclusão so Eixo)| |
 
 | **Caso de Teste** 	| ** CT-07 – Copartilhar itinerário** 	|
 |:---:	|:---:	|
@@ -51,9 +51,31 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 
 
+
+
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+### Testes Realizados com Sucesso
+Apesar das funcionalidades pendentes, diversos testes foram realizados com sucesso, conforme registrado no Plano de Testes de Software:
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+- Caso de Teste	CT-01 – Cadastrar perfil/CT-02 – Efetuar login
+- Caso de Teste	CT-02 – Criar despesa
+Requisito Associado	RF-001 - A aplicação deve possuir opção de Criar despesa, após clicar nessa opção será aberto um formulário para criação de uma despesa
+- Caso de Teste	CT-03 – Editar despesa
+Requisito Associado	RF-001 - A aplicação deve possuir opção de editar despesas criadas.
+- Caso de Teste	CT-04 – Relatório de gastos
+Requisito Associado	RF-002, RF-008, RF-009, RF-010 - A aplicação deve possuir opção de gerar relatório de gastos.
+- Caso de Teste	CT-05 – Roteiros.pdf
+Requisito Associado	RF-008
+
+
+### Testes pendentes
+
+Devido a limitações de tempo e à ausência de alguns integrantes da equipe, algumas funcionalidades não foram completamente desenvolvidas:
+
+- CT-06 – Grupos de viagem: Facilitar a formação e gestão de grupos de viagem.
+- CT-07 – Copartilhar itinerário: Permitir o compartilhamento de itinerários personalizados entre membros do grupo.
+- CT-08 – Dividir gastos: Gerenciar e dividir os custos da viagem entre os participantes.
+- CT-09 – Opções de hospedagem: Integrar opções de hospedagem variadas, adequadas aos diferentes orçamentos dos viajantes.
+
+Apesar dessas funcionalidades ainda estarem em desenvolvimento, a aplicação já oferece ferramentas valiosas para planejamento de viagens, controle financeiro em tempo real e colaboração em grupo. "Mochileiros" está bem posicionado para atender a viajantes individuais, grupos, famílias, pessoas com orçamento limitado e viajantes experientes, promovendo uma experiência de viagem mais consciente, econômica e satisfatória.
